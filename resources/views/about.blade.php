@@ -2,10 +2,23 @@
 @extends('layouts.master')
 @section('title', 'Homepage')
 @section('content')
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
 @include('includes.header')
-
+<section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
+<!-- <div class="overlay"></div> -->
+<div class="container">
+<div class="row justify-content-center pb-3">
+<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+<h2 class="mb-8 ">Contact Us</h2>
+</div>
+</div>
+<div class="row ftco-animate justify-content-center">
+<div class="col-md-12">
+<div class="carousel-testimony owl-carousel ftco-owl">
+</div>
+</div>
+</div>
+</div>
+</section>
 <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 <div class="container">
 <div class="row d-flex">

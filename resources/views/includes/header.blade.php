@@ -1,4 +1,4 @@
-<div class="py-1 bg-[#4F017D] top">
+<div class="py-1 bg-[#692c91] top">
 <div class="container">
 <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 <div class="col-lg-12 d-block">

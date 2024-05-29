@@ -1681,7 +1681,7 @@
     right: 0;
     z-index: 3;
     background: black;
-    background: #4F017D;
+    background: #692c91;
     color: #fff;
     font-size: 14px; }
     .top .register-link {
@@ -1752,7 +1752,7 @@
           height: 2px;
           bottom: 0;
           left: 0;
-          background: #4F017D;
+          background: #692c91;
           visibility: visible;
           -webkit-transform: scaleX(0);
           -moz-transform: scaleX(0);
@@ -1796,8 +1796,8 @@
         display: inline-block;
         color: #fff; }
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a:hover {
-        background: #4F017D;
-        border: 1px solid #4F017D; }
+        background: #692c91;
+        border: 1px solid #692c91; }
     .ftco-navbar-light .navbar-nav > .nav-item .nav-link.active {
       background: transparent;
       background: none;
@@ -1841,7 +1841,7 @@
         color: #6EBB20 !important; }
       .ftco-navbar-light.scrolled .nav-item.cta > a {
         color: #fff !important;
-        background: #4F017D;
+        background: #692c91;
         border: none !important;
         padding-top: 0.5rem !important;
         padding-bottom: .5rem !important;
@@ -1950,8 +1950,8 @@
       right: 0;
       bottom: 0;
       content: '';
-      opacity: 0;
-      background: #000000; }
+      opacity: .5;
+      background: #692c91; }
     .hero-wrap.hero-wrap-2 {
       height: 600px;
       position: relative;
@@ -2024,12 +2024,12 @@
     .btn:hover, .btn:active, .btn:focus {
       outline: none; }
     .btn.btn-primary {
-      background: #4F017D;
-      border: 1px solid #4F017D !important;
+      background: #692c91;
+      border: 1px solid #692c91 !important;
       color: #fff !important; }
       .btn.btn-primary:hover {
-        border: 1px solid #4F017D;
-        background: #4F017D;
+        border: 1px solid #692c91;
+        background: #692c91;
         color: #6EBB20; }
     .btn.btn-secondary {
       background: #fe5f55 !important;
@@ -2057,7 +2057,7 @@
     background-position: center center;
     position: relative;
     color: rgba(255, 255, 255, 0.8);
-    background: #4F017D; }
+    background: #692c91; }
     .ftco-intro .overlay {
       position: absolute;
       top: 0;
@@ -2075,7 +2075,7 @@
       font-size: 50px;
       font-weight: 800; }
       .ftco-intro h2 span {
-        background: #4F017D; }
+        background: #692c91; }
   
   .ftco-facts {
     padding: 8em 0;
@@ -2086,7 +2086,7 @@
     background-position: center center;
     position: relative;
     color: rgba(255, 255, 255, 0.8);
-    background: #4F017D; }
+    background: #692c91; }
     .ftco-facts .overlay {
       position: absolute;
       top: 0;
@@ -2095,11 +2095,11 @@
       bottom: 0;
       content: '';
       opacity: .8;
-      background: #4F017D; }
+      background: #692c91; }
     .ftco-facts .subheading {
       margin-bottom: 20px !important; }
     .ftco-facts h2 span {
-      background: #4F017D; }
+      background: #692c91; }
   
   .ftco-services-2 .services {
     -moz-transition: all 0.3s ease;
@@ -2234,7 +2234,7 @@
       .service-wrap .text h3 a {
         color: #000000; }
     .service-wrap:hover, .service-wrap:focus {
-      background: #4F017D; }
+      background: #692c91; }
       .service-wrap:hover .text, .service-wrap:focus .text {
         color: rgba(255, 255, 255, 0.7); }
         .service-wrap:hover .text h3 a, .service-wrap:focus .text h3 a {
@@ -2405,7 +2405,7 @@
       height: 50px;
       width: 50px;
       display: block;
-      background: #4F017D;
+      background: #692c91;
       border-radius: 50%;
       position: relative; }
       .ftco-footer-social li a span {
@@ -2469,6 +2469,15 @@
   
   .heading-section.heading-section-white p {
     color: rgba(255, 255, 255, 0.9); }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      content: '';
+      opacity: .7;
+      background: #692c91; }
   
   .img,
   .blog-img,
@@ -2479,7 +2488,7 @@
   
   .testimony-section {
     position: relative;
-    background: #4F017D;
+    background: #692c91;
     overflow: hidden; }
     .testimony-section .overlay {
       position: absolute;
@@ -2489,7 +2498,7 @@
       bottom: 0;
       content: '';
       opacity: .7;
-      background: #4F017D; }
+      background: #692c91; }
     .testimony-section .owl-carousel {
       margin: 0; }
     .testimony-section .owl-carousel .owl-stage-outer {

@@ -5,11 +5,27 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 @include('includes.header')
+<section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
+<div class="overlay"></div>
+<div class="container">
+<div class="row justify-content-center pb-3">
+<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+<h2 class="mb-8 ">Contact Us</h2>
+</div>
+</div>
+<div class="row ftco-animate justify-content-center">
+<div class="col-md-12">
+<div class="carousel-testimony owl-carousel ftco-owl">
+</div>
+</div>
+</div>
+</div>
+</section>
+
 <section class="ftco-section contact-section" id="contact-section">
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section text-center ftco-animate">
-<h2 class="mb-4">Contact Us</h2>
 <p>You can reach out to us, using different approach that is convenient to you.</p>
 </div>
 </div>
@@ -64,8 +80,9 @@
 </form>
 </div>
 <div class="col-md-6 d-flex">
-<div id="map" class="bg-white"></div>
-</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15949.862029253818!2d30.092222317382813!3d-1.967778099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1716985665655!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </div>
 </div>
 </section>
