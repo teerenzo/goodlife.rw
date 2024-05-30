@@ -12,10 +12,10 @@
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
 <div class="col-md-6 pt-5 ftco-animate">
 <div class="mt-5">
-<span class="subheading">Welcome to Goodlife</span>
-<h2 class="mb-4" style="color:black; font-weight:bold">Retail Health and Personal Care Products.</h2>
+<span class="heading" style="color:white; font-weight:bold">Welcome to Goodlife</span>
+<h2 class="mb-4" style="color:white; font-weight:bold">Retail Health and Personal Care Products.</h2>
 <p class="mb-4">Goodlife Health and Beauty is a leading retail, pharmaceutical and cosmetic group in Rwanda.</p>
-<p><a href="#" class="btn btn-primary py-3 px-4">Visit our branches</a></p>
+<p><a href="/branches" class="btn btn-primary py-3 px-4">Visit our branches</a></p>
 </div>
 </div>
 </div>
@@ -363,14 +363,14 @@ disease medications.
 <p>You can reach out to us, using different approach that is convenient to you.</p>
 </div>
 </div>
-<div class="row d-flex contact-info mb-5">
+<div class="row justify-content-center d-flex contact-info mb-5">
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
 <div class="align-self-stretch box p-4 text-center bg-light">
 <div class="icon d-flex align-items-center justify-content-center">
 <span class="icon-map-signs"></span>
 </div>
 <h3 class="mb-4">Address</h3>
-<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+<p>	Silverback Mall, Sonatube , Kigali 24J3+V2 Kigali, RW</p>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -388,7 +388,8 @@ disease medications.
 <span class="icon-paper-plane"></span>
 </div>
 <h3 class="mb-4">Email Address</h3>
-<p><a href="/cdn-cgi/l/email-protection#94fdfaf2fbd4edfbe1e6e7fde0f1baf7fbf9"><span class="__cf_email__" data-cfemail="5831363e371821372d2a2b312c3d763b3735">[email&#160;protected]</span></a></p>
+<p><a href="mail:info@goodlife.rw"><span class="__cf_email__" data-cfemail="5831363e371821372d2a2b312c3d763b3735">
+info@goodlife.rw</span></a></p>
 </div>
 </div>
 

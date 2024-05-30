@@ -5,7 +5,7 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 @include('includes.header')
-<section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
+<section class="ftco-section img" style="background-image: url(images/bg_3.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center pb-3">
