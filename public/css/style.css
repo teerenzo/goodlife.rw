@@ -358,6 +358,13 @@
     -ms-flex-positive: 1;
     flex-grow: 1;
     max-width: 100%; }
+
+    .map-home{
+      height: auto;
+      width: 100%;
+    }
+
+
   
   @media (min-width: 768px) {
     .col-md {
@@ -2216,7 +2223,7 @@
     display: block; }
   
   .service-wrap {
-    width: 100%;
+    /* width: 50%; */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -2225,6 +2232,7 @@
     transition: all 0.3s ease; }
     @media (min-width: 768px) {
       .service-wrap {
+        /* width: 100%; */
         border-right: 1px solid rgba(0, 0, 0, 0.1); } }
     .service-wrap .text .icon span {
       color: #6EBB20;
@@ -2336,7 +2344,7 @@
       display: inline-block; }
   
   .ftco-section {
-    padding: 7em 0;
+    padding: 7em 0 0 0;
     position: relative; }
     @media (max-width: 767.98px) {
       .ftco-section {

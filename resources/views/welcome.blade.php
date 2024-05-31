@@ -2,6 +2,10 @@
 @extends('layouts.master')
 @section('title', 'Homepage')
 @section('content')
+<style>
+  
+
+</style>
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 @include('includes.header')
@@ -12,22 +16,22 @@
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
 <div class="col-md-6 pt-5 ftco-animate">
 <div class="mt-5">
-<span class="heading" style="color:white; font-weight:bold">Welcome to Goodlife</span>
+<span class="subheading" style="color:#fff; font-weight:bold">Goodlife “Look Good, Feel good, Pay Less!”</span>
 <h2 class="mb-4" style="color:white; font-weight:bold">Retail Health and Personal Care Products.</h2>
-<p class="mb-4">Goodlife Health and Beauty is a leading retail, pharmaceutical and cosmetic group in Rwanda.</p>
+<p class="mb-4" style="color:white;" >Goodlife Health and Beauty is a leading retail, pharmaceutical and cosmetic group in Rwanda.</p>
 <p><a href="/branches" class="btn btn-primary py-3 px-4">Visit our branches</a></p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+<section class=" ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 <div class="container">
 <div class="row d-flex">
-<div class="col-md-6 col-lg-5 d-flex">
-<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_about.png);">
+<!-- <div class=" col-md-6 col-lg-5 d-flex ">
+<div class="about-img img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_about.png);">
 </div>
-</div>
+</div> -->
 <div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
 <div class="py-md-5">
 <div class="row justify-content-start pb-3">
@@ -36,7 +40,7 @@
 <p>We take pride in being Rwanda's premier pharmacy, health, and 
 beauty retailer, dedicated to ensuring our customers enjoy a 
 delightful shopping experience.</p>
-<p><a href="#" class="btn btn-primary py-3 px-4">Learn More</a>
+<p><a href="/about" class="btn btn-primary py-3 px-4">Learn More</a>
 </div>
 </div>
 </div>
@@ -63,14 +67,14 @@ one convenient place.
 </section>
 <section class="ftco-section ftco-no-pt ftco-no-pb" id="service-section">
 <div class="container-fluid px-0">
-<div class="row no-gutters">
+<!-- <div class="row no-gutters">
 <div class="col-md-4 d-flex">
 <div class="img img-dept align-self-stretch" style="background-image: url(images/bg_about.png);"></div>
 </div>
-<div class="col-md-8">
+<div class="col-md-12"> -->
 <div class="row no-gutters">
-<div class="col-md-4">
-<div class="service-wrap p-4 ftco-animate">
+<div class=" row col-md-12">
+<div class="service-wrap col-md-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
 <span class="flaticon-stethoscope"></span>
@@ -83,7 +87,7 @@ generics on premises, at competitive prices often
 </p>
 </div>
 </div>
-<div class="service-wrap p-4 ftco-animate">
+<div class="service-wrap col-md-6 col-lg-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
 <span class="flaticon-stethoscope"></span>
@@ -98,8 +102,8 @@ lotion, shampoo, conditioner
 </div>
 </div>
 </div>
-<div class="col-md-4">
-<div class="service-wrap p-4 ftco-animate">
+<div class="row col-md-12">
+<div class="service-wrap col-md-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
 <span class="flaticon-stethoscope"></span>
@@ -111,7 +115,7 @@ disease medications.
 </p>
 </div>
 </div>
-<div class="service-wrap p-4 ftco-animate">
+<div class="service-wrap col-md-6 col-lg-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
 <span class="flaticon-stethoscope"></span>
@@ -124,8 +128,8 @@ disease medications.
 </div>
 </div>
 </div>
-</div>
-</div>
+<!-- </div>
+</div> -->
 </section>
 <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light">
 <div class="container">
@@ -140,27 +144,28 @@ disease medications.
 <div class="row">
 <div class="col-md-6 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
-<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-first-aid-kit"></span></div>
+
 <div class="media-body pl-md-4">
 <h3 class="heading mb-3">Pharmacy </h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<p>Coordinated follow-up of patients with chronic 
+disease medications.</p>
 </div>
 </div>
 </div>
 <div class="col-md-6 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
-<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div>
+<!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div> -->
 <div class="media-body pl-md-4">
 <h3 class="heading mb-3"> Health and beauty</h3>
-<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+<p>Provision of generics and branded generics and 
+quality environmentally-friendly fast moving 
+consumer goods such as Cinnabar Green refillable 
+lotion, shampoo, conditioner</p>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="col-md-5 d-flex">
-
 </div>
 </div>
 </div>
@@ -174,7 +179,7 @@ disease medications.
 <h2 class="mb-4">
     Goodlife Health and Beauty is a leading retail, pharmaceutical and cosmetic group in Rwanda.
 </h2>
-<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Learn more</a></p>
+<p class="mb-0"><a href="/about" class="btn btn-secondary px-4 py-3">Learn more</a></p>
 </div>
 <div class="col-md-7">
 <div class="row pt-4">
@@ -198,16 +203,13 @@ disease medications.
 <div class="block-18">
 <div class="text">
 <strong class="strong" data-number="84">7</strong>
-<span>Number of Branches</span>
+<span>employees</span>
 </div>
 </div>
 </div>
 <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18">
-<div class="text">
-<strong class="strong" data-number="50">20</strong>
-<span>employees</span>
-</div>
+
 </div>
 </div>
 </div>
@@ -379,7 +381,7 @@ disease medications.
 <span class="icon-phone2"></span>
 </div>
 <h3 class="mb-4">Contact Number</h3>
-<p><a href="tel://1234567920">+  250791232245</a></p>
+<p><a href="tel://250791232245">+  250791232245</a></p>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -388,7 +390,7 @@ disease medications.
 <span class="icon-paper-plane"></span>
 </div>
 <h3 class="mb-4">Email Address</h3>
-<p><a href="mail:info@goodlife.rw"><span class="__cf_email__" data-cfemail="5831363e371821372d2a2b312c3d763b3735">
+<p><a href="mail:info@goodlife.rw"><span>
 info@goodlife.rw</span></a></p>
 </div>
 </div>
@@ -415,9 +417,9 @@ info@goodlife.rw</span></a></p>
 </form>
 </div>
 <div class="col-md-6 d-flex">
-<div class="bg-white">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15949.862029253818!2d30.092222317382813!3d-1.967778099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1716985665655!5m2!1sen!2srw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15949.862029253818!2d30.092222317382813!3d-1.967778099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1716985665655!5m2!1sen!2srw" style="border:0; width:100%" class="map-home" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 </div>
 </div>
 </div>

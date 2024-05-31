@@ -5,20 +5,15 @@
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
 @include('includes.header')
-<section class="ftco-section img" style="background-image: url(images/bg_3.jpg);">
+<section class="ftco-section img" style="background:#692c91;">
 <div class="overlay"></div>
 <div class="container">
-<div class="row justify-content-center pb-3">
+<div class="to-hide row d-flex align-items-end justify-content-center flex-column  pb-3">
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
 <h2 class="mb-4">Our  Branches</h2>
 </div>
 </div>
-<div class="row ftco-animate justify-content-center">
-<div class="col-md-12">
-<div class="carousel-testimony owl-carousel ftco-owl">
-</div>
-</div>
-</div>
+
 </div>
 </section>
 

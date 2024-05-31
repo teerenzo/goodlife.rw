@@ -16,6 +16,7 @@
 <link rel="stylesheet" href="css/flaticon.css">
 <link rel="stylesheet" href="css/icomoon.css">
 <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
     @yield('header')
@@ -32,9 +33,32 @@
 <script src="js/aos.js"></script>
 <script src="js/jquery.animateNumber.min.js"></script>
 <script src="js/scrollax.min.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+
+<style>
+  .to-hide{
+    height: 200px;
+  }
+  @media (max-width: 768px) {
+    .to-hide{
+      height: 50px;
+    }
+  }
+
+  .about-img
+        {
+            display: none;
+        }
+      
+    @media (max-width: 768px) {
+ 
+        .map-home{
+        height: 400px;
+        width: 100%;
+      }
+    }
+</style>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
 <script>

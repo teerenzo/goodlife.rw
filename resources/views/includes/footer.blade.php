@@ -45,7 +45,7 @@ first multi-city pharmacy chain in Rwanda</p>
 <ul>
 <li><span class="icon icon-map-marker"></span><span class="text">Silverback Mall, Sonatube , Kigali 24J3+V2 Kigali, RW</span></li>
 <li><a href="#"><span class="icon icon-phone"></span><span class="text">+250791232245</span></a></li>
-<li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text"><span class="__cf_email__" data-cfemail="7811161e173801170d0a1c1715191116561b1715">info@goodlife.rw</span></span></a></li>
+<li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text"><span>info@goodlife.rw</span></span></a></li>
 </ul>
 </div>
 </div>

@@ -9,7 +9,7 @@
 </div>
 <div class="col-md pr-4 d-flex topper align-items-center">
 <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-mail"></span></div>
-<span class="text"><a href="mail:to=info@goodlife.rw" class="__cf_email__" data-cfemail="6d1402181f08000c04012d08000c0401430e0200">
+<span class="text"><a href="mail:to=info@goodlife.rw">
     info@goodlife.rw
 </a></span>
 </div>
@@ -29,9 +29,9 @@
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav nav ml-auto">
-<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+<li class="nav-item"><a href="/" class="nav-link"><span>Home</span></a></li>
 <li class="nav-item"><a href="/about" class="nav-link"><span>About</span></a></li>
-<li class="nav-item"><a href="#service-section" class="nav-link"><span>service</span></a></li>
+<li class="nav-item"><a href="/#service-section" class="nav-link"><span>service</span></a></li>
 <li class="nav-item"><a href="/branches" class="nav-link"><span>Branches</span></a></li>
 <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
 <li class="nav-item"><a href="/contact" class="nav-link"><span>Contact</span></a></li>
