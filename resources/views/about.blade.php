@@ -6,7 +6,7 @@
 <section class="ftco-section img" style="background:#692c91;">
 <div class="overlay"></div>
 <div class="container">
-<div class="to-hide row d-flex align-items-end justify-content-center flex-column  pb-3" >
+<div class="to-hide row d-flex align-items-center justify-content-end  flex-column  pb-3" >
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
 <h2 class="mb-8 ">About Us</h2>
 </div>

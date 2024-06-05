@@ -5,7 +5,7 @@
 <div class="row d-flex">
 <div class="col-md pr-4 d-flex topper align-items-center">
 <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-<span class="text">+  250791232245</span>
+<span class="text">+  250 791 232 266</span>
 </div>
 <div class="col-md pr-4 d-flex topper align-items-center">
 <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-mail"></span></div>
@@ -22,7 +22,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 <div class="container">
 <a class="navbar-brand" href="/">
-    <img src="images/logos/goodlife-logo.webp" alt="logo" style="width: 100px; ">
+    <img src="images/logos/goodlife-logo.svg" alt="logo" style="width: 150px; ">
 </a>
 <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="oi oi-menu"></span> Menu

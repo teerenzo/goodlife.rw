@@ -8,7 +8,7 @@
 <section class="ftco-section img" style="background:#692c91;">
 <div class="overlay"></div>
 <div class="container">
-<div class="to-hide row d-flex align-items-end justify-content-center flex-column  pb-3" >
+<div class="to-hide row d-flex align-items-center justify-content-end  flex-column  pb-3" >
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
 <h2 class="mb-8 ">Contact Us</h2>
 </div>
@@ -44,7 +44,7 @@
 <span class="icon-phone2"></span>
 </div>
 <h3 class="mb-4">Contact Number</h3>
-<p><a href="tel://250791232245">+  250791232245</a></p>
+<p><a href="tel://250 791 232 266">+250 791 232 266</a></p>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">

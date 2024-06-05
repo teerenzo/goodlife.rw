@@ -134,7 +134,7 @@ disease medications.
 <section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light">
 <div class="container">
 <div class="row d-flex">
-<div class="col-md-7 py-5">
+<div class="col-md-12 py-5">
 <div class="py-lg-5">
 <div class="row justify-content-center pb-5">
 <div class="col-md-12 heading-section ftco-animate">
@@ -142,9 +142,8 @@ disease medications.
 </div>
 </div>
 <div class="row">
-<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+<div class="col-md-4 d-flex align-self-stretch">
 <div class="media block-6 services d-flex">
-
 <div class="media-body pl-md-4">
 <h3 class="heading mb-3">Pharmacy </h3>
 <p>Coordinated follow-up of patients with chronic 
@@ -152,7 +151,7 @@ disease medications.</p>
 </div>
 </div>
 </div>
-<div class="col-md-6 d-flex align-self-stretch ftco-animate">
+<div class="col-md-4 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
 <!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div> -->
 <div class="media-body pl-md-4">
@@ -164,12 +163,146 @@ lotion, shampoo, conditioner</p>
 </div>
 </div>
 </div>
+<div class="col-md-4 d-flex align-self-stretch ftco-animate">
+<div class="media block-6 services d-flex">
+<div class="media-body pl-md-4">
+<h3 class="heading mb-3">free health screening </h3>
+<p>We offer free health screenings as part of our community health initiatives</p>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
 </div>
 </div>
 </section>
+@php
+    $branches = [
+    [
+        'name' => 'Head Office',
+        'address' => 'Sonatube, Kicukiro',
+        'phone' => '+250 791 232 266 (Reception)',
+        'email' => 'info@goodlife.rw'
+    ],
+    [
+        'name' => 'Silverback branch',
+        'address' => 'Sonatube, Kicukiro',
+        'phone' => [
+            'Pharmacy' => '+250 791 232 150',
+            'Frontshop' => '+250 791 232 245'
+        ],
+        'email' => 'goodlifepharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Mundi center branch',
+        'address' => 'RwandEx KN 3rd, Mundi center',
+        'phone' => '+250 798 666 605',
+        'email' => 'mundipharma@goodlife.rw',
+    ],
+    [
+        'name' => 'EZA Kisimenti branch',
+        'address' => 'Kisimenti, 19 KG 1 Ave',
+        'phone' => '+250 781 661 716',
+        'email' => 'ezapharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Town M Peace branch',
+        'address' => 'Town City, Makuza Peace Plaza, KN 48 Street',
+        'phone' => [
+            'Pharmacy' => '+250 794 766 133',
+            'Frontshop' => '+250 794 775 329'
+        ],
+        'email' => 'nyarugengepharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Gacuriro branch',
+        'address' => 'Gacuriro KG 14 Ave, SIMBA CENTER',
+        'phone' => '+250 793 767 068 (Pharmacy & Frontshop)',
+        'email' =>'gacuriropharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Nyakabanda branch',
+        'address' => 'Nyakabanda KN 20 Ave, EGEN Station near the sector',
+        'phone' => [
+            'Pharmacy' => '+250 794 764 235',
+            'Frontshop' => '+250 791 232 242'
+        ],
+        'email' =>'nyakabandapharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Musanze branch',
+        'address' => 'Musanze, NM 6 ST, across from Gaiko Building',
+        'phone' => [
+            'Pharmacy' => '+250 791 232 460',
+            'Frontshop' => '+250 791 232 152'
+        ],
+        'email' => 'musanzepharma@goodlife.rw',
+
+    ],
+    [
+        'name' => 'Kimironko branch',
+        'address' => 'Kimironko, across Igihozo Supermarket',
+        'phone' => '+250 787 934 551 (Pharmacy & Frontshop)',
+        'email' => 'technipharma2@goodlife.rw'
+    ],
+    [
+        'name' => 'Gisenyi branch',
+        'address' => 'Gisenyi, across from Heroes GYM',
+        'phone' => '+250 783 523 248 (Pharmacy)',
+        'email' => 'rafipharma@goodlife.rw'
+    ],
+    [
+        'name' => 'Nyamirambo branch',
+        'address' => 'Nyamirambo, KN 2 Ave',
+        'phone' => '+250 788 688 505 (Pharmacy)',
+        'email' => 'medplusnyamirambo@goodlife.rw'
+    ],
+    [
+        'name' => 'Gisozi branch',
+        'address' => 'Gisozi, KG 14 Ave',
+        'phone' => '+250 787 475 154 (Pharmacy)',
+        'email' => 'medplusgisozi@goodlife.rw'
+    ],
+    [
+        'name' => 'Kanombe branch',
+        'address' => 'Kanombe, KK 80 Street, across from Kanombe Military Hospital',
+        'phone' => '+250 787 070 694 (Pharmacy)',
+        'email' => 'kanombepharma@goodlife.rw'
+    ]
+];
+
+$galleries= [
+    [
+        'image' => 'images/umuganda/1.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/2.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/3.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/4.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/5.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/6.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/7.jpg',
+    ],
+    [
+        'image' => 'images/umuganda/8.jpg',
+    ]
+
+
+  
+];
+
+    @endphp
 <section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_3.jpg);">
 <div class="overlay"></div>
 <div class="container">
@@ -194,7 +327,7 @@ lotion, shampoo, conditioner</p>
 <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18">
 <div class="text">
-<strong class="strong" data-number="5">7</strong>
+<strong class="strong" data-number="5">12</strong>
 <span>Branches</span>
 </div>
 </div>
@@ -202,7 +335,7 @@ lotion, shampoo, conditioner</p>
 <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18">
 <div class="text">
-<strong class="strong" data-number="84">7</strong>
+<strong class="strong" data-number="84">40 + </strong>
 <span>employees</span>
 </div>
 </div>
@@ -217,145 +350,156 @@ lotion, shampoo, conditioner</p>
 </div>
 </div>
 </section>
+<section class="bg-light py-3 py-md-5 py-xl-8">
+  <div class="container">
+    <div class="row justify-content-md-center">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
+        <h2 class="mb-4 display-5 text-center">Our Umuganda Programs</h2>
+        <p class="text-secondary mb-5 text-center lead fs-4">Some highlights from our Umuganda Program where we work with a surrounding community  </p>
+        <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+
+
+  @foreach($galleries as $index => $data)
+  <a class="col-md-6 col-lg-3 ftco-animate gallery_img set-bg"  data-lightbox="mygallery" href="{{ asset($data['image']) }}" data-setbg="{{  asset($data['image']) }}">
+        <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+                <div class="img align-self-stretch" style="background-image: url('{{  asset($data['image']) }}')"></div>
+            </div>
+        </div>
+        </a>
+   
+                    @endforeach
+</div>
+
+
+
+</section>
 <section class="ftco-section" id="doctor-section">
 <div class="container-fluid px-5">
 <div class="row justify-content-center mb-5 pb-2">
 <div class="col-md-8 text-center heading-section ftco-animate">
-<h2 class="mb-4">Our  Branches</h2>
+<h2 class="mb-4">Our Branches</h2>
 <p> 
     these are our branches in different places in Rwanda where you can get our services.
 </p>
 </div>
 </div>
 <div class="row">
-<div class="col-md-6 col-lg-3 ftco-animate">
-<div class="staff">
-<div class="img-wrap d-flex align-items-stretch">
-<div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg);"></div>
-</div>
-<div class="text pt-3 text-center">
-<h3 class="mb-2">Sonatube</h3>
-<span class="position mb-2">Silverback mall</span>
-<div class="faded">
-<p></p>
-<ul class="ftco-social text-center">
-<li class="ftco-animate"><a href="#"><span class="fa-location"></span></a></li>
-<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-</ul>
-<p><a href="#" class="btn btn-primary">see more</a></p>
-</div>
-</div>
-</div>
-</div>
 
-<div class="col-md-6 col-lg-3 ftco-animate">
-    <div class="staff">
-    <div class="img-wrap d-flex align-items-stretch">
-    <div class="img align-self-stretch" style="background-image: url(images/mundi.jpg);"></div>
-    </div>
-    <div class="text pt-3 text-center">
-    <h3 class="mb-2">Mundi center</h3>
-    <span class="position mb-2">Rwandex</span>
-    <div class="faded">
-    <p></p>
-    <ul class="ftco-social text-center">
-    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-    </ul>
-    <p><a href="#" class="btn btn-primary">see more</a></p>
-    </div>
-    </div>
-    </div>
-    </div>
 
+    
+    @foreach($branches as $branch)
+    @php
+        // Use the branch name to create a suitable image name
+        $imageName = strtolower(str_replace(' ', '_', $branch['name'])) . '.jpg';
+        $phoneNumbers = is_array($branch['phone']) ? implode(', ', $branch['phone']) : $branch['phone'];
+        // Format the email addresses for display
+        $emailAddresses = is_array($branch['email']) ? implode(', ', $branch['email']) : $branch['email'];
+    @endphp
     <div class="col-md-6 col-lg-3 ftco-animate">
         <div class="staff">
-        <div class="img-wrap d-flex align-items-stretch">
-        <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg);"></div>
-        </div>
-        <div class="text pt-3 text-center">
-        <h3 class="mb-2">Gacuriro</h3>
-        <span class="position mb-2">Simba Center</span>
-        <div class="faded">
-        <p></p>
-        <ul class="ftco-social text-center">
-        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-        <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-        </ul>
-        <p><a href="#" class="btn btn-primary">see more</a></p>
-        </div>
-        </div>
-        </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-            <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg);"></div>
+                <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg)"></div>
             </div>
             <div class="text pt-3 text-center">
-            <h3 class="mb-2">Nyakabanda</h3>
-            <span class="position mb-2">Engine station</span>
-            <div class="faded">
-            <p></p>
-            <ul class="ftco-social text-center">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <p><a href="#" class="btn btn-primary">see more</a></p>
-            </div>
-            </div>
-            </div>
-            </div>
+                <h3 class="mb-2">{{ $branch['name'] }}</h3>
+                <span class="position mb-2">{{ $branch['address'] }}</span>
+                <span class="position mb-2">{{ $phoneNumbers }}</span>
 
-            
-        <div class="col-md-6 col-lg-3 ftco-animate">
-            <div class="staff">
-            <div class="img-wrap d-flex align-items-stretch">
-            <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg);"></div>
+
+                <div class="faded">
+                    <p></p>
+                    <!-- <ul class="ftco-social text-center">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul> -->
+                    <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a></p>
+
+                </div>
             </div>
-            <div class="text pt-3 text-center">
-            <h3 class="mb-2">Musanze town</h3>
-            <span class="position mb-2">Silverback</span>
-            <div class="faded">
-            <p></p>
-            <ul class="ftco-social text-center">
-            <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-            <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-            </ul>
-            <p><a href="#" class="btn btn-primary">see more</a></p>
-            </div>
-            </div>
-            </div>
-            </div>
+        </div>
+    </div>
+@endforeach
+
+
 </div>
 </div>
 </section>
-<section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
+<section class="ftco-section img" style="background-image: url(images/bg_3.jpg); background-repeat:no-repeat; backgound-size:100% 100%">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center pb-3">
-<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+<div class="col-md-7 text-center heading-section heading-section-white">
 <h2 class="mb-4">Our Team</h2>
 </div>
 </div>
-<div class="row ftco-animate justify-content-center">
-<div class="col-md-12">
-<div class="carousel-testimony owl-carousel ftco-owl">
+    <div class="row gy-4 gy-lg-0 gx-xxl-5 pb-5">
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card border-0 border-bottom border-[blue] shadow-sm overflow-hidden">
+          <div class="card-body p-0">
+            <figure class="m-0 p-0">
+              <img class="" loading="lazy" height="300" width="100%"  src="images/team-3.jpg" alt="Flora Nyra">
+              <figcaption class="m-0 p-4">
+                <h6 class="mb-1">Grant Beyers</h6>
+                <p class="text-secondary mb-0">CEO and co-founder</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+          <div class="card-body p-0">
+            <figure class="m-0 p-0">
+              <img height="300" width="100%"  loading="lazy" src="images/team-4.jpg" alt="Evander Mac">
+              <figcaption class="m-0 p-4">
+                <h6 class="mb-1">Josh Ruxin</h6>
+                <p class="text-secondary mb-0"> Co-Founder</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+          <div class="card-body p-0">
+            <figure class="m-0 p-0">
+              <img height="300" width="100%"  loading="lazy" src="images/team-1.jpg" alt="Taytum Elia">
+              <figcaption class="m-0 p-4">
+                <h6 class="mb-0">Ida-Alexandra de Cordier</h6>
+                <p class="text-secondary mb-0">COO and 
+co-founder</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
+          <div class="card-body p-0">
+            <figure class="m-0 p-0">
+              <img height="300" width="100%"  loading="lazy" src="images/team-2.jpg" alt="Wylder Elio">
+              <figcaption class="m-0 p-4">
+                <h6 class="mb-1">Emmanuel Nduwayezu</h6>
+                <p class="text-secondary mb-0"> Finance Manager</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+
 </div>
 </div>
-</div>
-</div>
+</section>
+<section class="bg-light py-3 py-md-5 py-xl-8">
+
 </section>
 <section class="ftco-section contact-section" id="contact-section">
 <div class="container">
@@ -372,7 +516,7 @@ lotion, shampoo, conditioner</p>
 <span class="icon-map-signs"></span>
 </div>
 <h3 class="mb-4">Address</h3>
-<p>	Silverback Mall, Sonatube , Kigali 24J3+V2 Kigali, RW</p>
+<p>	Sonatube, Kicukiro</p>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -381,7 +525,7 @@ lotion, shampoo, conditioner</p>
 <span class="icon-phone2"></span>
 </div>
 <h3 class="mb-4">Contact Number</h3>
-<p><a href="tel://250791232245">+  250791232245</a></p>
+<p><a href="tel://250 791 232 266">+  0 791 232 266</a></p>
 </div>
 </div>
 <div class="col-md-6 col-lg-3 d-flex ftco-animate">

@@ -6,6 +6,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/teams/team-1/assets/css/team-1.css" />
+<link rel="stylesheet" type="text/css" href="lightbox2/dist/css/lightbox.min.css">
+     <script src="lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
 <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -39,6 +43,7 @@
 <style>
   .to-hide{
     height: 200px;
+    padding: 10px;
   }
   @media (max-width: 768px) {
     .to-hide{
