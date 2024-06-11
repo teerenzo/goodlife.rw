@@ -3,15 +3,26 @@
 <div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 <div class="col-lg-12 d-block">
 <div class="row d-flex">
-<div class="col-md pr-4 d-flex topper align-items-center">
-<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
-<span class="text">+  250 791 232 266</span>
-</div>
-<div class="col-md pr-4 d-flex topper align-items-center">
+<div class="col-md-12 pr-4 d-flex topper align-items-center justify-content-center ">
+<div class="col-md-3 pr-4 d-flex topper align-items-center">
 <div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-mail"></span></div>
-<span class="text"><a href="mail:to=info@goodlife.rw">
+<!-- <span class="text"><a href="mail:to=info@goodlife.rw">
+    info@goodlife.rw
+</a></span> -->
+</div>
+
+</div>
+<div class="icon mr-2 d-flex justify-content-center align-items-center ">
+<span class="text mr-2 "><a href=""> +  250 791 232 266</a></span>
+<span class="text mr-2"><a href="mail:to=info@goodlife.rw">
     info@goodlife.rw
 </a></span>
+</div>
+<div class="col-md-3 pr-4 d-flex topper align-items-center">
+<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-mail"></span></div>
+<!-- <span class="text"><a href="mail:to=info@goodlife.rw">
+    info@goodlife.rw
+</a></span> -->
 </div>
 
 </div>
@@ -31,7 +42,7 @@
 <ul class="navbar-nav nav ml-auto">
 <li class="nav-item"><a href="/" class="nav-link"><span>Home</span></a></li>
 <li class="nav-item"><a href="/about" class="nav-link"><span>About</span></a></li>
-<li class="nav-item"><a href="/#service-section" class="nav-link"><span>service</span></a></li>
+<li class="nav-item"><a href="/#service-section" class="nav-link"><span>Services</span></a></li>
 <li class="nav-item"><a href="/branches" class="nav-link"><span>Branches</span></a></li>
 <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
 <li class="nav-item"><a href="/contact" class="nav-link"><span>Contact</span></a></li>

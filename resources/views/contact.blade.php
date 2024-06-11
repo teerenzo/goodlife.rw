@@ -2,23 +2,18 @@
 @extends('layouts.master')
 @section('title', 'Homepage')
 @section('content')
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" data-target=".site-navbar-target1" data-offset="300">
 
 @include('includes.header')
-<section class="ftco-section img" style="background:#692c91;">
+<section class="ftco-section1 img" style="background:#692c91;">
 <div class="overlay"></div>
 <div class="container">
-<div class="to-hide row d-flex align-items-center justify-content-end  flex-column  pb-3" >
+<div class="to-hide row d-flex align-items-center justify-content-end flex-column  pb-3">
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-<h2 class="mb-8 ">Contact Us</h2>
+<h2 class="mb-4 ">Contact Us</h2>
 </div>
 </div>
-<div class="row ftco-animate justify-content-center">
-<div class="col-md-12">
-<div class="carousel-testimony owl-carousel ftco-owl">
-</div>
-</div>
-</div>
+
 </div>
 </section>
 <section class="ftco-section contact-section" id="contact-section">

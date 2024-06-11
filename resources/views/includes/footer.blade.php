@@ -1,22 +1,25 @@
-<footer class="ftco-footer ftco-section img" style="background-image: url(images/footer-bg.jpg);">
+<footer class="ftco-footer ftco-section img" style="">
 <div class="overlay"></div>
 <div class="container-fluid px-md-5">
 <div class="row mb-5">
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
-<h2 class="ftco-heading-2">Goodlife</h2>
+<h2 class="ftco-heading-2">
+<img src="images/logos/goodlife-logo.svg" alt="logo" style="width: 150px; ">
+
+</h2>
 <p>Rwanda’s largest pharmacy chain, we operate 12 locations and are the 
 first multi-city pharmacy chain in Rwanda</p>
 <ul class="ftco-footer-social list-unstyled mt-5">
-<li class="ftco-animate"><a href=""><span class="icon-twitter"></span></a></li>
-<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+<li class="ftco-animate"><a href="https://x.com/goodliferwanda" target="_blank"><span class="icon-twitter"></span></a></li>
+<li class="ftco-animate"><a href="https://www.facebook.com/p/Goodlife-Rwanda-100086144434241/" target="_blank"><span class="icon-facebook"></span></a></li>
 <li class="ftco-animate"><a href="https://www.instagram.com/goodliferwanda/" target="_blank"><span class="icon-instagram"></span></a></li>
 </ul>
 </div>
 </div>
 <div class="col-md">
 <div class="ftco-footer-widget mb-4 ml-md-4">
-<h2 class="ftco-heading-2">services</h2>
+<h2 class="ftco-heading-2">Services</h2>
 <ul class="list-unstyled">
 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>pharmacy</a></li>
 <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>health</a></li>
@@ -30,7 +33,7 @@ first multi-city pharmacy chain in Rwanda</p>
 <ul class="list-unstyled">
 <li><a href="/"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
 <li><a href="/about"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-<li><a href="/#service-section"><span class="icon-long-arrow-right mr-2"></span>services</a></li>
+<li><a href="/#service-section"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
 <li><a href="/branches"><span class="icon-long-arrow-right mr-2"></span>Branches</a></li>
 <!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li> -->
 <li><a href="/contact"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
@@ -54,7 +57,7 @@ first multi-city pharmacy chain in Rwanda</p>
 <div class="row">
 <div class="col-md-12 text-center">
 <p>
-Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved by Goodlife
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved by Goodlife
 </p>
 </div>
 </div>

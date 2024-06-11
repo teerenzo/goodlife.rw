@@ -3,20 +3,15 @@
 @section('title', 'Homepage')
 @section('content')
 @include('includes.header')
-<section class="ftco-section img" style="background:#692c91;">
+<section class="ftco-section1 img" style="background:#692c91;">
 <div class="overlay"></div>
-<div class="container">
-<div class="to-hide row d-flex align-items-center justify-content-end  flex-column  pb-3" >
+<div class="to-hide">
+<div class=" row d-flex align-items-center justify-content-end  flex-column  pb-3 to-hide" >
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-<h2 class="mb-8 ">About Us</h2>
+<h2 class="mb-4">About Us</h2>
 </div>
 </div>
-<div class="row ftco-animate justify-content-center">
-<div class="col-md-12">
-<div class="carousel-testimony owl-carousel ftco-owl">
-</div>
-</div>
-</div>
+
 </div>
 </section>
 <section class="ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">

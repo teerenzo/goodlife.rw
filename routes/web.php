@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/cdn-cgi/rum/${id}',function (){
+    
+});
+
 // contact
 Route::get('/contact', function ()  {
     return view('contact');

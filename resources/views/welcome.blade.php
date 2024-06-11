@@ -2,11 +2,8 @@
 @extends('layouts.master')
 @section('title', 'Homepage')
 @section('content')
-<style>
-  
 
-</style>
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+<body data-spy="scroll" data-target=".site-navbar-target1" data-offset="300">
 
 @include('includes.header')
 
@@ -186,7 +183,7 @@ lotion, shampoo, conditioner</p>
         'email' => 'info@goodlife.rw'
     ],
     [
-        'name' => 'Silverback branch',
+        'name' => 'Silverback',
         'address' => 'Sonatube, Kicukiro',
         'phone' => [
             'Pharmacy' => '+250 791 232 150',
@@ -195,19 +192,19 @@ lotion, shampoo, conditioner</p>
         'email' => 'goodlifepharma@goodlife.rw',
     ],
     [
-        'name' => 'Mundi center branch',
+        'name' => 'Mundi center',
         'address' => 'RwandEx KN 3rd, Mundi center',
         'phone' => '+250 798 666 605',
         'email' => 'mundipharma@goodlife.rw',
     ],
     [
-        'name' => 'EZA Kisimenti branch',
+        'name' => 'EZA Kisimenti',
         'address' => 'Kisimenti, 19 KG 1 Ave',
         'phone' => '+250 781 661 716',
         'email' => 'ezapharma@goodlife.rw',
     ],
     [
-        'name' => 'Town M Peace branch',
+        'name' => 'Town M Peace',
         'address' => 'Town City, Makuza Peace Plaza, KN 48 Street',
         'phone' => [
             'Pharmacy' => '+250 794 766 133',
@@ -216,13 +213,13 @@ lotion, shampoo, conditioner</p>
         'email' => 'nyarugengepharma@goodlife.rw',
     ],
     [
-        'name' => 'Gacuriro branch',
+        'name' => 'Gacuriro',
         'address' => 'Gacuriro KG 14 Ave, SIMBA CENTER',
         'phone' => '+250 793 767 068 (Pharmacy & Frontshop)',
         'email' =>'gacuriropharma@goodlife.rw',
     ],
     [
-        'name' => 'Nyakabanda branch',
+        'name' => 'Nyakabanda',
         'address' => 'Nyakabanda KN 20 Ave, EGEN Station near the sector',
         'phone' => [
             'Pharmacy' => '+250 794 764 235',
@@ -231,7 +228,7 @@ lotion, shampoo, conditioner</p>
         'email' =>'nyakabandapharma@goodlife.rw',
     ],
     [
-        'name' => 'Musanze branch',
+        'name' => 'Musanze',
         'address' => 'Musanze, NM 6 ST, across from Gaiko Building',
         'phone' => [
             'Pharmacy' => '+250 791 232 460',
@@ -241,36 +238,68 @@ lotion, shampoo, conditioner</p>
 
     ],
     [
-        'name' => 'Kimironko branch',
+        'name' => 'Kimironko',
         'address' => 'Kimironko, across Igihozo Supermarket',
         'phone' => '+250 787 934 551 (Pharmacy & Frontshop)',
         'email' => 'technipharma2@goodlife.rw'
     ],
     [
-        'name' => 'Gisenyi branch',
+        'name' => 'Gisenyi',
         'address' => 'Gisenyi, across from Heroes GYM',
         'phone' => '+250 783 523 248 (Pharmacy)',
         'email' => 'rafipharma@goodlife.rw'
     ],
     [
-        'name' => 'Nyamirambo branch',
+        'name' => 'Nyamirambo',
         'address' => 'Nyamirambo, KN 2 Ave',
         'phone' => '+250 788 688 505 (Pharmacy)',
         'email' => 'medplusnyamirambo@goodlife.rw'
     ],
     [
-        'name' => 'Gisozi branch',
+        'name' => 'Gisozi',
         'address' => 'Gisozi, KG 14 Ave',
         'phone' => '+250 787 475 154 (Pharmacy)',
         'email' => 'medplusgisozi@goodlife.rw'
     ],
     [
-        'name' => 'Kanombe branch',
+        'name' => 'Kanombe',
         'address' => 'Kanombe, KK 80 Street, across from Kanombe Military Hospital',
         'phone' => '+250 787 070 694 (Pharmacy)',
         'email' => 'kanombepharma@goodlife.rw'
     ]
 ];
+
+$branchesMob = [
+    [
+        'name' => 'Head Office',
+        'address' => 'Sonatube, Kicukiro',
+        'phone' => '+250 791 232 266 (Reception)',
+        'email' => 'info@goodlife.rw'
+    ],
+    [
+        'name' => 'Silverback',
+        'address' => 'Sonatube, Kicukiro',
+        'phone' => [
+            'Pharmacy' => '+250 791 232 150',
+            'Frontshop' => '+250 791 232 245'
+        ],
+        'email' => 'goodlifepharma@goodlife.rw',
+    ],
+    [
+        'name' => 'Mundi center',
+        'address' => 'RwandEx KN 3rd, Mundi center',
+        'phone' => '+250 798 666 605',
+        'email' => 'mundipharma@goodlife.rw',
+    ],
+    [
+        'name' => 'EZA Kisimenti ',
+        'address' => 'Kisimenti, 19 KG 1 Ave',
+        'phone' => '+250 781 661 716',
+        'email' => 'ezapharma@goodlife.rw',
+    ]
+  
+];
+
 
 $galleries= [
     [
@@ -310,7 +339,7 @@ $galleries= [
 <div class="col-md-5 heading-section heading-section-white">
 <span class="subheading">facts</span>
 <h2 class="mb-4">
-    Goodlife Health and Beauty is a leading retail, pharmaceutical and cosmetic group in Rwanda.
+    Goodlife Health and Beauty is the leading pharmacy and cosmetic retail group in Rwanda.
 </h2>
 <p class="mb-0"><a href="/about" class="btn btn-secondary px-4 py-3">Learn more</a></p>
 </div>
@@ -320,7 +349,7 @@ $galleries= [
 <div class="block-18">
 <div class="text">
 <strong class="strong" data-number="2">2</strong>
-<span>Years of Experienced</span>
+<span>Years of Experience</span>
 </div>
 </div>
 </div>
@@ -335,14 +364,17 @@ $galleries= [
 <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18">
 <div class="text">
-<strong class="strong" data-number="84">40 + </strong>
+<strong class="strong" data-number="84">116 + </strong>
 <span>employees</span>
 </div>
 </div>
 </div>
 <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18">
-
+<div class="text">
+<strong class="strong" data-number="84">7 + </strong>
+<span>Services</span>
+</div>
 </div>
 </div>
 </div>
@@ -350,21 +382,22 @@ $galleries= [
 </div>
 </div>
 </section>
-<section class="bg-light py-3 py-md-5 py-xl-8">
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="mb-4 display-5 text-center">Our Umuganda Programs</h2>
-        <p class="text-secondary mb-5 text-center lead fs-4">Some highlights from our Umuganda Program where we work with a surrounding community  </p>
+<section class="ftco-section" id="doctor-section">
+<div class="container-fluid px-5">
+    <div class="row justify-content-center mb-5 pb-2">
+      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center heading-section ftco-animate">
+        <h2 class="mb-4 text-center">Our Community and Social Involvement (CSI PROJECT)</h2>
+        <h3 class="mb-4 text-center">Our Umuganda Program</h3>
+        <p>Some highlights from our Umuganda Program where we work with a surrounding community  </p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row px-4">
 
 
   @foreach($galleries as $index => $data)
-  <a class="col-md-6 col-lg-3 ftco-animate gallery_img set-bg"  data-lightbox="mygallery" href="{{ asset($data['image']) }}" data-setbg="{{  asset($data['image']) }}">
+  <a class="col-md-6 col-lg-3 ftco-animate "  data-lightbox="mygallery" href="{{ asset($data['image']) }}" data-setbg="{{  asset($data['image']) }}">
         <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
                 <div class="img align-self-stretch" style="background-image: url('{{  asset($data['image']) }}')"></div>
@@ -388,10 +421,9 @@ $galleries= [
 </p>
 </div>
 </div>
+<div class="desktop-post">
 <div class="row">
-
-
-    
+ 
     @foreach($branches as $branch)
     @php
         // Use the branch name to create a suitable image name
@@ -427,6 +459,59 @@ $galleries= [
     </div>
 @endforeach
 
+
+</div></div>
+<div class="mobile-post ">
+  <div class="d-flex flex-column align-items-center">
+
+<div class="row ">
+ 
+    @foreach($branchesMob as $branch)
+    @php
+        // Use the branch name to create a suitable image name
+        $imageName = strtolower(str_replace(' ', '_', $branch['name'])) . '.jpg';
+        $phoneNumbers = is_array($branch['phone']) ? implode(', ', $branch['phone']) : $branch['phone'];
+        // Format the email addresses for display
+        $emailAddresses = is_array($branch['email']) ? implode(', ', $branch['email']) : $branch['email'];
+    @endphp
+    <div class="col-md-6 col-lg-3 ftco-animate">
+        <div class="staff">
+            <div class="img-wrap d-flex align-items-stretch">
+                <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg)"></div>
+            </div>
+            <div class="text pt-3 text-center">
+                <h3 class="mb-2">{{ $branch['name'] }}</h3>
+                <span class="position mb-2">{{ $branch['address'] }}</span>
+                <span class="position mb-2">{{ $phoneNumbers }}</span>
+
+
+                <div class="faded">
+                    <p></p>
+                    <!-- <ul class="ftco-social text-center">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul> -->
+                    <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+@endforeach
+
+
+</div>
+
+ <div class="d-flex">
+
+  <button class="btn btn-secondary">See More</button>
+
+ </div>
+
+ 
+ </div>
 
 </div>
 </div>
