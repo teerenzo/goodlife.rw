@@ -40,8 +40,8 @@
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav nav ml-auto">
-<li class="nav-item"><a href="/" class="nav-link"><span>Home</span></a></li>
-<li class="nav-item"><a href="/about" class="nav-link"><span>About</span></a></li>
+<li class="nav-item"><a href="/" class="nav-link"><span style="color:#6a2c91"><strong>Home</strong></span></a></li>
+<li class="nav-item"><a href="/about" class="nav-link"><span style="color:#6a2c91"><strong> About</strong></span></a></li>
 <li class="nav-item"><a href="/#service-section" class="nav-link"><span>Services</span></a></li>
 <li class="nav-item"><a href="/branches" class="nav-link"><span>Branches</span></a></li>
 <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
