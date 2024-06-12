@@ -45,9 +45,15 @@
     height: 200px;
     padding: 10px;
   }
+  .mobile-post{
+    display: hidden;
+  }
   @media (max-width: 768px) {
     .to-hide{
       height: 50px;
+    }
+    .desktop-post{
+    display: hidden;
     }
   }
 

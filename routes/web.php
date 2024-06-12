@@ -24,3 +24,8 @@ Route::get('/branches', function ()  {
 Route::get('/about', function ()  {
     return view('about');
 });
+
+// Branches review 
+Route::get('/branch_overview', function(){
+    return view('branch_overview');
+});

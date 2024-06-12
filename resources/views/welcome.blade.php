@@ -22,6 +22,40 @@
 </div>
 </div>
 </section>
+
+<section class="slider-brands">
+  <ul class="brand">
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li> 
+    <li>
+        <img src="images/rssb.png">
+    </li>  
+    
+  </ul>
+</section>
+
 <section class=" ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 <div class="container">
 <div class="row d-flex">
@@ -417,7 +451,7 @@ $galleries= [
 <div class="col-md-8 text-center heading-section ftco-animate">
 <h2 class="mb-4">Our Branches</h2>
 <p> 
-    these are our branches in different places in Rwanda where you can get our services.
+    These are our branches in different places in Rwanda where you can get our services.
 </p>
 </div>
 </div>
@@ -451,7 +485,8 @@ $galleries= [
                         <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul> -->
-                    <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a></p>
+                    <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a>
+                    &nbsp; <a href="/branch_overview" class="btn btn-secondary">Review</a></p>
 
                 </div>
             </div>
@@ -461,7 +496,7 @@ $galleries= [
 
 
 </div></div>
-<div class="mobile-post ">
+<div class="mobile-post">
   <div class="d-flex flex-column align-items-center">
 
 <div class="row ">
@@ -558,8 +593,7 @@ $galleries= [
               <img height="300" width="100%"  loading="lazy" src="images/team-1.jpg" alt="Taytum Elia">
               <figcaption class="m-0 p-4">
                 <h6 class="mb-0">Ida-Alexandra de Cordier</h6>
-                <p class="text-secondary mb-0">COO and 
-co-founder</p>
+                <p class="text-secondary mb-0">COO and  co-founder</p>
               </figcaption>
             </figure>
           </div>
@@ -656,6 +690,14 @@ info@goodlife.rw</span></a></p>
 
 @include('includes.footer')
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const brandList = document.querySelector('.brand');
+  const clones = brandList.innerHTML;
+  brandList.innerHTML += clones;
+});
+
+</script>
 </body>
 </html>
 @endsection
