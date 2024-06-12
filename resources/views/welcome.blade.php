@@ -108,7 +108,7 @@ one convenient place.
 <div class="service-wrap col-md-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
-<span class="flaticon-stethoscope"></span>
+<img src="images/icons/accessability.png" width="40px">
 </div>
 <h3><a href="#">Accessibility</a></h3>
 <p>
@@ -120,9 +120,9 @@ generics on premises, at competitive prices often
 </div>
 <div class="service-wrap col-md-6 col-lg-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
-<div class="icon">
-<span class="flaticon-stethoscope"></span>
-</div>
+ <div class="icon">
+   <img src="images/icons/bar-graph.png" width="40px">
+ </div>
 <h3><a href="#">Provision of generics and branded generics</a></h3>
 <p>
 Provision of generics and branded generics and 
@@ -136,9 +136,9 @@ lotion, shampoo, conditioner
 <div class="row col-md-12">
 <div class="service-wrap col-md-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
-<div class="icon">
-<span class="flaticon-stethoscope"></span>
-</div>
+ <div class="icon">
+   <img src="images/icons/result.png" width="40px">
+ </div>
 <h3><a href="#">Coordinated follow-up</a></h3>
 <p>
 Coordinated follow-up of patients with chronic 
@@ -149,7 +149,7 @@ disease medications.
 <div class="service-wrap col-md-6 col-lg-6 p-4 ftco-animate">
 <div class="text p-2 text-center">
 <div class="icon">
-<span class="flaticon-stethoscope"></span>
+  <img src="images/icons/social-services.png" width="40px">
 </div>
 <h3><a href="#">Optimize public health with all points-of call
 </a></h3>
