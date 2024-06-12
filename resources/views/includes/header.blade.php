@@ -42,11 +42,11 @@
 <ul class="navbar-nav nav ml-auto">
 <li class="nav-item"><a href="/" class="nav-link"><span style="color:#6a2c91"><strong>Home</strong></span></a></li>
 <li class="nav-item"><a href="/about" class="nav-link"><span style="color:#6a2c91"><strong> About</strong></span></a></li>
-<li class="nav-item"><a href="/#service-section" class="nav-link"><span>Services</span></a></li>
-<li class="nav-item"><a href="/branches" class="nav-link"><span>Branches</span></a></li>
+<li class="nav-item"><a href="/#service-section" class="nav-link"><span style="color:#6a2c91"><strong>Services</strong></span></a></li>
+<li class="nav-item"><a href="/branches" class="nav-link"><span style="color:#6a2c91"><strong>Branches</strong></span></a></li>
 <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li> -->
-<li class="nav-item"><a href="/contact" class="nav-link"><span>Contact</span></a></li>
-<li class="nav-item"><a href="/csi-project" class="nav-link"><span>CSI Project</span></a></li>
+<li class="nav-item"><a href="/contact" class="nav-link"><span style="color:#6a2c91"><strong>Contact</strong></span></a></li>
+<li class="nav-item"><a href="/csi-project" class="nav-link"><span style="color:#6a2c91"><strong>CSI Project</strong></span></a></li>
 </ul>
 </div>
 </div>

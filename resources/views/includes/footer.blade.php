@@ -14,6 +14,7 @@ first multi-city pharmacy chain in Rwanda</p>
 <li class="ftco-animate"><a href="https://x.com/goodliferwanda" target="_blank"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="https://www.facebook.com/p/Goodlife-Rwanda-100086144434241/" target="_blank"><span class="icon-facebook"></span></a></li>
 <li class="ftco-animate"><a href="https://www.instagram.com/goodliferwanda/" target="_blank"><span class="icon-instagram"></span></a></li>
+<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-Whatsapp"></span></a></li>
 </ul>
 </div>
 </div>
