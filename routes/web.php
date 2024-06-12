@@ -29,3 +29,8 @@ Route::get('/about', function ()  {
 Route::get('/branch_overview', function(){
     return view('branch_overview');
 });
+
+//CSI Project
+Route::get('/csi-project', function(){
+    return view('csi-project');
+});

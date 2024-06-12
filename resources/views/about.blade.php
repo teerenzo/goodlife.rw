@@ -44,21 +44,25 @@
 <div class="media block-6 services d-flex">
 <!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div> -->
 <div class="media-body pl-md-4">
-<h3 class="heading mb-3"> Our Mission </h3>
-<ul>
-    <li>
-    <p>Our mission is to provide accessible and affordable health and beauty products and services to our customers, with a focus on service excellence, convenience, innovation and experience.</p>
+<div class="card mb-3" style="background-color:#57812f; color: #fff; text-align:center; position:relative; border-radius:30px; overflow:hidden; height:500px;">  
+    <div class="card-body">
+      <h5 class="card-title text-center">Mission</h5>
+      
+      <p class="card-text">
+        Our mission is to provide accessible and affordable health and beauty products and services to our customers, with a focus on service excellence, convenience, innovation and experience.
+      </p>
+      <p class="card-text">
+        Provide the most efficient and cost-effective quality healthcare services while maintaining a contented dedicated workforce and satisfying all stakeholders.
+      </p>
+      <p class="card-text">
+        We care about and contribute to the wellbeing of people, the environment and communities. We are passionate about leading innovation within the unique attributes of our organization. Our focus on a clear vision and growth strategy provides our people with unlimited opportunities.
+      </p>
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.2; z-index:0;">
+        <img src="images/compassion.png" alt="..." style="width:100%; height:100%; object-fit:cover;">
+      </div>
+    </div>
 
-    </li>
-    <li>
-    <p>Provide the most efficient and cost-effective quality healthcare services while maintaining a contented dedicated workforce and satisfying all stakeholders.</p>
-
-    </li>
-    <li>
-    <p>We care about and contribute to the wellbeing of people, the environment and communities. We are passionate about leading innovation within the unique attributes of our organization. Our focus on a clear vision and growth strategy provides our people with unlimited opportunities.</p>
-
-    </li>
-</ul>
+  </div>
 </div>
 </div>
 </div>
@@ -66,34 +70,42 @@
 <div class="media block-6 services d-flex">
 
 <div class="media-body pl-md-4">
-<h3 class="heading mb-3">Our Vision </h3>
-<ul>
-    <li>
-    <p>Our vision is to be the customer's first choice of pharmacy, health and beauty retailer in Rwanda through our quality health care and beauty offering as the best possible prices.</p>
-
-    </li>
-</ul>
+    <div class="card mb-3" style="background-color:#664a73; color: #fff; text-align:center; position:relative; border-radius:30px; overflow:hidden; height:500px;">
+        <div class="card-body">
+          <h5 class="card-title text-center">Vision</h5>
+          <p class="card-text" style="position:relative; z-index:1;">
+            Our vision is to be the customer's first choice of pharmacy, health and beauty retailer in Rwanda through our quality health care and beauty offering at the best possible prices.
+          </p> 
+          <div style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.2; z-index:0;">
+            <img src="images/compassion.png" alt="..." style="width:100%; height:100%; object-fit:cover;">
+          </div>
+        </div>
+      </div>
+      
 </div>
 </div>
 </div>
 
-</div>
-</div>
-</div>
-</div>
+
 
 <div class="col-md-12 ">
 <div class="py-lg-5">
 <div class="row">
 <div class="col-md-6 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
-
+   
 <div class="media-body pl-md-4">
-<h3 class="heading mb-3">Our Purpose </h3>
-
-
-    <p>Goodlife Health and Beauty goes beyond being just a pharmacy and retail store; we deliver healthcare in various ways, extending our services, products, and initiatives to encompass communities, by co funding health care for under privileged communities through our Umuganda involvement projects</p>
-
+    <div class="card mb-3" style="background-color:#46bcce; color: #fff; text-align:center; position:relative; border-radius:30px; overflow:hidden; height:500px;">
+        <div class="card-body" style="position:relative; z-index:1;">
+          <h5 class="card-title text-center">Purpose</h5>
+          <p class="card-text">
+            Goodlife Health and Beauty goes beyond being just a pharmacy and retail store; we deliver healthcare in various ways, extending our services, products, and initiatives to encompass communities, by co-funding health care for underprivileged communities through our Umuganda involvement projects.
+          </p> 
+        </div>
+        <div style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.2; z-index:0;">
+            <img src="images/compassion.png" alt="..." style="width:100%; height:100%; object-fit:cover;">
+          </div>
+      </div>     
 </div>
 </div>
 </div>
@@ -101,8 +113,17 @@
 <div class="media block-6 services d-flex">
 <!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div> -->
 <div class="media-body pl-md-4">
-<h3 class="heading mb-3"> Our Ethics </h3>
-<p>Goodlife Health & Beauty is committed to a policy of fair dealing and integrity in the conduct of their business. This commitment, which is actively endorsed by the Board of Directors, is based on a fundamental belief that business should be conducted honestly, fairly and legally.</p>
+<div class="card mb-3" style="background-color:#4584b0; color: #fff; text-align:center; position:relative; border-radius:30px; overflow:hidden; height:500px;">
+    <div class="card-body">
+      <h5 class="card-title text-center">Ethics</h5>
+      <p class="card-text" style="position:relative; z-index:1;">
+        Goodlife Health & Beauty is committed to a policy of fair dealing and integrity in the conduct of their business. This commitment, which is actively endorsed by the Board of Directors, is based on a fundamental belief that business should be conducted honestly, fairly and legally.
+      </p> 
+      <div style="position:absolute; top:0; left:0; width:100%; height:100%; opacity:0.2; z-index:0;">
+        <img src="images/compassion.png" alt="..." style="width:100%; height:100%; object-fit:cover;">
+      </div>
+    </div>
+  </div>
 </div>
 </div>
 </div>
