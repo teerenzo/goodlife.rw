@@ -64,24 +64,40 @@
   <main>
     <div class="py-5 text-center">
       <br><br> <br><br>
-      <img class="d-block mx-auto mb-4" src="images/logos/goodlife-logo.svg" alt="logo" width="72" height="57">
-      <h2>[Branch name] Overview</h2>
+      <img class="d-block mx-auto mb-4" src="" alt="logo" width="72" height="57">
+      <h2>  {{ $branch['name'] }} Overview</h2>
       <p class="lead">Below are the informations that can help you to quick get support from your nearest branch 24/7.</p>
     </div>
 
     <div class="row g-5">
       <div class="col-md-5 col-lg-4 order-md-last">
         <h4 class="d-flex justify-content-between align-items-center mb-3">
-          <span class="text-primary">Contact</span> 
+          <span class="text-primary">Contact(s)</span> 
         </h4>
         <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm">
+        @if(is_array($branch['phone']))
+            @foreach($branch['phone'] as $key => $phone)
+            <li class="list-group-item d-flex justify-content-between lh-sm">
             <div>
-              <h6 class="my-0">Receiption</h6>
-              <small class="text-muted">(Receptionist)</small>
+              <h6 class="my-0">{{ $key }}</h6>
+              <!-- <small class="text-muted">(Receptionist)</small> -->
             </div>
-            <span class="text-muted"><a href="tel:">250 7xx xxx xxx</a></span>
+            <span class="text-muted"><a href="tel:">{{ $phone }}</a></span>
           </li>
+            @endforeach
+        @else
+          
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">
+              <span class="text-muted"><a href="tel:">  {{ $branch['phone'] }}</a></span>
+              </h6>
+       
+            </div>
+          
+          </li>
+        @endif
+      
          
         </ul>
 
@@ -90,7 +106,7 @@
         <h4 class="mb-3">Review on Google Map</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
-            <img src="https://picsum.photos/200/300?random=1">
+          <iframe src="{{ $branch['map'] }}" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </form>
       </div>

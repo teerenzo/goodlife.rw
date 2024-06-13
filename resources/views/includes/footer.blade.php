@@ -5,7 +5,7 @@
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">
-<img src="images/logos/goodlife-logo.svg" alt="logo" style="width: 150px; ">
+<img src="{{asset('images/logos/goodlife-logo.svg')}}" alt="logo" style="width: 150px; ">
 
 </h2>
 <p>Rwanda’s largest pharmacy chain, we operate 12 locations and are the 

@@ -65,6 +65,7 @@
  /* slider brand */
 .slider-brands {
   overflow-x: hidden; 
+  background-color: #fff;
   white-space: nowrap; 
   padding: 10px 0; 
   position: relative;
@@ -74,6 +75,7 @@
   display: flex; 
   flex-wrap: nowrap; 
   animation: slide 30s linear infinite; 
+  padding-bottom: 10px;
 }
 
 .brand li {
@@ -84,6 +86,7 @@
 .brand img {
   width: 240px;
   padding: 10px 20px; 
+  height: 100px;
   display: block; 
 }
 
@@ -1999,7 +2002,7 @@
   
   .hero-wrap {
     width: 100%;
-    height: 700px;
+    height: 90vh;
     position: inherit;
     background-size: cover;
     background-repeat: no-repeat;
@@ -2008,7 +2011,7 @@
       .hero-wrap {
         background-position: center center !important; } }
     .hero-wrap .slider-text {
-      height: 700px; }
+      height: 90vh; }
     .hero-wrap .overlay {
       position: absolute;
       top: 0;
@@ -2019,7 +2022,7 @@
       opacity: .5;
       background: #692c91; }
     .hero-wrap.hero-wrap-2 {
-      height: 600px;
+      height: 90vh;
       position: relative;
       background-position: top center; }
       .hero-wrap.hero-wrap-2 .overlay {

@@ -26,32 +26,59 @@
 <section class="slider-brands">
   <ul class="brand">
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/aveeno.png">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Bodycology.png">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Cantu.webp">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Cerave.jpg">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Cetaphil.png">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Cinnabar.jpg">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Dermomed.jpg">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/La Roche.png">
     </li> 
     <li>
-        <img src="images/rssb.png">
+        <img src="images/brands/Mustela.jpg">
     </li>  
+    <li>
+        <img src="images/brands/Nivea.svg">
+    </li>  
+    <li>
+        <img src="images/brands/Old Spice.png">
+    </li>  
+    <li>
+        <img src="images/brands/Pampers.png">
+    </li>  
+    <li>
+        <img src="images/brands/Sebamed.png">
+    </li>  
+    <li>
+        <img src="images/brands/SVR.png">
+    </li>  
+    <li>
+        <img src="images/brands/Topicrem.svg">
+    </li>  
+    <li>
+        <img src="images/brands/Vaseline.png">
+    </li>  
+    <li>
+        <img src="images/brands/Vaseline.png">
+    </li> 
+    <li>
+        <img src="images/brands/Zwitsal.jpg">
+    </li> 
     
   </ul>
 </section>
@@ -486,7 +513,7 @@ $galleries= [
                         <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul> -->
                     <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a>
-                    &nbsp; <a href="/branch_overview" class="btn btn-secondary">Review</a></p>
+                    &nbsp; <a href="{{ route('branches.show', $branch['name']) }}" class="btn btn-secondary">Review</a></p>
 
                 </div>
             </div>

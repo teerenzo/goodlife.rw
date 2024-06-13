@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BranchController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -19,6 +20,8 @@ Route::get('/contact', function ()  {
 Route::get('/branches', function ()  {
     return view('branches');
 });
+
+Route::get('/branches/{name}', [BranchController::class, 'show'])->name('branches.show');
 
 // about
 Route::get('/about', function ()  {
