@@ -64,7 +64,10 @@
   <main>
     <div class="py-5 text-center">
       <br><br> <br><br>
-      <img class="d-block mx-auto mb-4" src="" alt="logo" width="72" height="57">
+      <div class="img-wrap">
+      <img class="d-block mx-auto mb-4 img-fluid" src="{{asset('images/stores/'.$branch['image'])}}" alt="logo">
+
+      </div>
       <h2>  {{ $branch['name'] }} Overview</h2>
       <p class="lead">Below are the informations that can help you to quick get support from your nearest branch 24/7.</p>
     </div>

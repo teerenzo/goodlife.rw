@@ -7,7 +7,7 @@
 
 @include('includes.header')
 
-<section class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg'); background-repeat: no-repeat" data-section="home" data-stellar-background-ratio="0.5">
+<section class="hero-wrap js-fullheight" style="background-image: url('images/bg_31.jpg'); background-repeat: no-repeat" data-section="home" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -85,13 +85,17 @@
 
 <section class=" ftco-counter img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
 <div class="container">
+
+<div class="col-md-12 d-flex justify-content-center align-items-center">
+   <h2 class="pt-4"><span>Your well being is our #1 priority</span></h2>
+</div>
 <div class="row d-flex">
 <!-- <div class=" col-md-6 col-lg-5 d-flex ">
 <div class="about-img img d-flex align-self-stretch align-items-center" style="background-image:url(images/bg_about.png);">
 </div>
 </div> -->
-<div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
-<div class="py-md-5">
+<div class="col-md-6 col-lg-7 pl-lg-5 pb-md-5">
+<div class="pb-md-5">
 <div class="row justify-content-start pb-3">
 <div class="col-md-12 heading-section ftco-animate p-4 p-lg-5">
 <h2 class="mb-4">We Are <span>Goodlife</span></h2>
@@ -106,7 +110,7 @@ delightful shopping experience.</p>
 </div>
 </div>
 </section>
-<section class="ftco-intro img" style="background-image: url('images/bg_3.jpg');">
+<section class="ftco-intro img" style="background-image: url('images/bg_31.jpg');">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center">
@@ -118,7 +122,7 @@ find a wide range of top-quality health and beauty products, all in
 one convenient place.
 
 </p>
-<p class="mb-0"><a href="#" class="btn btn-white px-4 py-3">Search Places</a></p>
+<p class="mb-0"><a href="/branches" class="btn btn-white px-4 py-3">Search Places</a></p>
 </div>
 </div>
 </div>
@@ -236,99 +240,128 @@ lotion, shampoo, conditioner</p>
 </div>
 </section>
 @php
-    $branches = [
-    [
-        'name' => 'Head Office',
-        'address' => 'Sonatube, Kicukiro',
-        'phone' => '+250 791 232 266 (Reception)',
-        'email' => 'info@goodlife.rw'
-    ],
-    [
-        'name' => 'Silverback',
-        'address' => 'Sonatube, Kicukiro',
-        'phone' => [
-            'Pharmacy' => '+250 791 232 150',
-            'Frontshop' => '+250 791 232 245'
-        ],
-        'email' => 'goodlifepharma@goodlife.rw',
-    ],
-    [
-        'name' => 'Mundi center',
-        'address' => 'RwandEx KN 3rd, Mundi center',
-        'phone' => '+250 798 666 605',
-        'email' => 'mundipharma@goodlife.rw',
-    ],
-    [
-        'name' => 'EZA Kisimenti',
-        'address' => 'Kisimenti, 19 KG 1 Ave',
-        'phone' => '+250 781 661 716',
-        'email' => 'ezapharma@goodlife.rw',
-    ],
-    [
-        'name' => 'Town M Peace',
-        'address' => 'Town City, Makuza Peace Plaza, KN 48 Street',
-        'phone' => [
-            'Pharmacy' => '+250 794 766 133',
-            'Frontshop' => '+250 794 775 329'
-        ],
-        'email' => 'nyarugengepharma@goodlife.rw',
-    ],
-    [
-        'name' => 'Gacuriro',
-        'address' => 'Gacuriro KG 14 Ave, SIMBA CENTER',
-        'phone' => '+250 793 767 068 (Pharmacy & Frontshop)',
-        'email' =>'gacuriropharma@goodlife.rw',
-    ],
-    [
-        'name' => 'Nyakabanda',
-        'address' => 'Nyakabanda KN 20 Ave, EGEN Station near the sector',
-        'phone' => [
-            'Pharmacy' => '+250 794 764 235',
-            'Frontshop' => '+250 791 232 242'
-        ],
-        'email' =>'nyakabandapharma@goodlife.rw',
-    ],
-    [
-        'name' => 'Musanze',
-        'address' => 'Musanze, NM 6 ST, across from Gaiko Building',
-        'phone' => [
-            'Pharmacy' => '+250 791 232 460',
-            'Frontshop' => '+250 791 232 152'
-        ],
-        'email' => 'musanzepharma@goodlife.rw',
+   
+$branches = [
+            [
+                'name' => 'Head Office',
+                'address' => 'Sonatube, Kicukiro',
+                'phone' => '+250 791 232 266 (Reception)',
+                'email' => 'info@goodlife.rw',
+                'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.465507318202!2d30.099947074967098!3d-1.9677780980144137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1718314715108!5m2!1sen!2srw',
+                'image' => 'SB.jpeg'
+            ],
+            [
+                'name' => 'Silverback',
+                'address' => 'Sonatube, Kicukiro',
+                'phone' => [
+                    'Pharmacy' => '+250 791 232 150',
+                    'Frontshop' => '+250 791 232 245'
+                ],
+                'email' => 'goodlifepharma@goodlife.rw',
+                'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.465507318202!2d30.099947074967098!3d-1.9677780980144137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1718314715108!5m2!1sen!2srw',
+                'image' => 'SB.jpg'
 
-    ],
-    [
-        'name' => 'Kimironko',
-        'address' => 'Kimironko, across Igihozo Supermarket',
-        'phone' => '+250 787 934 551 (Pharmacy & Frontshop)',
-        'email' => 'technipharma2@goodlife.rw'
-    ],
-    [
-        'name' => 'Gisenyi',
-        'address' => 'Gisenyi, across from Heroes GYM',
-        'phone' => '+250 783 523 248 (Pharmacy)',
-        'email' => 'rafipharma@goodlife.rw'
-    ],
-    [
-        'name' => 'Nyamirambo',
-        'address' => 'Nyamirambo, KN 2 Ave',
-        'phone' => '+250 788 688 505 (Pharmacy)',
-        'email' => 'medplusnyamirambo@goodlife.rw'
-    ],
-    [
-        'name' => 'Gisozi',
-        'address' => 'Gisozi, KG 14 Ave',
-        'phone' => '+250 787 475 154 (Pharmacy)',
-        'email' => 'medplusgisozi@goodlife.rw'
-    ],
-    [
-        'name' => 'Kanombe',
-        'address' => 'Kanombe, KK 80 Street, across from Kanombe Military Hospital',
-        'phone' => '+250 787 070 694 (Pharmacy)',
-        'email' => 'kanombepharma@goodlife.rw'
-    ]
-];
+            ],
+            [
+                'name' => 'Mundi center',
+                'address' => 'RwandEx KN 3rd, Mundi center',
+                'phone' => '+250 798 666 605',
+                'email' => 'mundipharma@goodlife.rw',
+                'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.461878375412!2d30.085246274725975!3d-1.9692951980128774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca701a3b9b2df%3A0xb77eb3825a669ca9!2sGoodLife%20Health%20%26%20Beauty%20-%20Mundi%20Center%20Branch!5e0!3m2!1sen!2srw!4v1718315063066!5m2!1sen!2srw',
+                'image' => 'Mundi.jpeg'
+            ],
+            [
+                'name' => 'EZA Kisimenti',
+                'address' => 'Kisimenti, 19 KG 1 Ave',
+                'phone' => '+250 781 661 716',
+                'email' => 'ezapharma@goodlife.rw',
+                'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4831741912285!2d30.105513324725987!3d-1.9603755980218724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7e90a7ee7f3%3A0xc5de66f954a843ad!2sGoodlife%20Health%20%26%20Beauty%20-%20Kisimenti%20branch!5e0!3m2!1sen!2srw!4v1718315191616!5m2!1sen!2srw',
+                'image' => 'SB.jpeg'
+            ],
+            [
+                'name' => 'Town M Peace',
+                'address' => 'Town City, Makuza Peace Plaza, KN 48 Street',
+                'phone' => [
+                    'Pharmacy' => '+250 794 766 133',
+                    'Frontshop' => '+250 794 775 329'
+                ],
+                'email' => 'nyarugengepharma@goodlife.rw',
+                'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5162081952903!2d30.057110374726022!3d-1.9464586980358856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca55ef2a050ab%3A0xf65474ad70d8c8cd!2sGoodlife%20Health%20%26%20Beauty%20-%20Town%20branch!5e0!3m2!1sen!2srw!4v1718315302047!5m2!1sen!2srw',
+                'image' => 'M Peace Plaza - Town.jpg'
+            ],
+            [
+                'name' => 'Gacuriro',
+                'address' => 'Gacuriro KG 14 Ave, SIMBA CENTER',
+                'phone' => '+250 793 767 068 (Pharmacy & Frontshop)',
+                'email' =>'gacuriropharma@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5700429355225!2d30.092325974725867!3d-1.9235629980589621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca1e2d60d75ad%3A0x793b7eb7138056b5!2sGoodlife%20Health%20%26%20Beauty%20-%20Gacuriro%20branch!5e0!3m2!1sen!2srw!4v1718315363011!5m2!1sen!2srw',
+                'image' => 'Gacuriro.jpg'
+            ],
+            [
+                'name' => 'Nyakabanda',
+                'address' => 'Nyakabanda KN 20 Ave, EGEN Station near the sector',
+                'phone' => [
+                    'Pharmacy' => '+250 794 764 235',
+                    'Frontshop' => '+250 791 232 242'
+                ],
+                'email' =>'nyakabandapharma@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4516558913865!2d30.045987574726006!3d-1.9735624980085826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca59f6ab96315%3A0xac52af7540d08bb6!2sGoodlife%20health%20%26%20beauty%20-%20Nyakabanda%20branch!5e0!3m2!1sen!2srw!4v1718315408208!5m2!1sen!2srw',
+                'image' => 'Nyakabanda.jpg'
+
+            ],
+            [
+                'name' => 'Musanze',
+                'address' => 'Musanze, NM 6 ST, across from Gaiko Building',
+                'phone' => [
+                    'Pharmacy' => '+250 791 232 460',
+                    'Frontshop' => '+250 791 232 152'
+                ],
+                'email' => 'musanzepharma@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4350243024355!2d29.64051497472481!3d-1.5087982984770494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dc5ba7db3870fd%3A0xa6d31a33fd1fd3d7!2sGoodLife%20Health%20%26%20Beauty%20-%20Musanze%20Branch!5e0!3m2!1sen!2srw!4v1718315470163!5m2!1sen!2srw',
+                'image' => 'Musanze2.jpg'
+        
+            ],
+            [
+                'name' => 'Kimironko',
+                'address' => 'Kimironko, across Igihozo Supermarket',
+                'phone' => '+250 787 934 551 (Pharmacy & Frontshop)',
+                'email' => 'technipharma2@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.5078829540953!2d30.121479174725998!3d-1.9499753980323438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ed24fb2a37%3A0xf91ac524ece95268!2sGoodLife%20Health%20%26%20Beauty%20-%20Kimironko%20Branch!5e0!3m2!1sen!2srw!4v1718315504475!5m2!1sen!2srw',
+                'image' => 'TechniPharma.jpg'
+            ],
+            [
+                'name' => 'Gisenyi',
+                'address' => 'Gisenyi, across from Heroes GYM',
+                'phone' => '+250 783 523 248 (Pharmacy)',
+                'email' => 'rafipharma@goodlife.rw',
+                'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31904.627687538752!2d29.224762474316403!3d-1.6921307999999922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dd056871c2dc61%3A0xa300b0c3941421f3!2sGoodlife%20Health%20%26%20Beauty%20-%20Rubavu%20branch!5e0!3m2!1sen!2srw!4v1718315588656!5m2!1sen!2srw',
+                'image' => 'Rubavu1.jpg'
+            ],
+            [
+                'name' => 'Nyamirambo',
+                'address' => 'Nyamirambo, KN 2 Ave',
+                'phone' => '+250 788 688 505 (Pharmacy)',
+                'email' => 'medplusnyamirambo@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31899.718935018274!2d30.058149338712937!3d-1.968045922902061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca5294db60a7b%3A0x65602a21a47f6d75!2sGoodLife%20Health%20%26%20Beauty%20-%20MedPlus%20Nyamirambo!5e0!3m2!1sen!2srw!4v1718315625963!5m2!1sen!2srw',
+                'image' => 'SB.jpeg'
+            ],
+            [
+                'name' => 'Gisozi',
+                'address' => 'Gisozi, KG 14 Ave',
+                'phone' => '+250 787 475 154 (Pharmacy)',
+                'email' => 'medplusgisozi@goodlife.rw',
+                'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31900.48980656872!2d30.018286774316397!3d-1.92733149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca53e2011ddeb%3A0xdf431fc27fd1a966!2sGoodLife%20Health%20%26%20Beauty%20-%20MedPlus%20Gisozi!5e0!3m2!1sen!2srw!4v1718315680443!5m2!1sen!2srw',
+                'image' => 'SB.jpeg'
+            ],
+            [
+                'name' => 'Kanombe',
+                'address' => 'Kanombe, KK 80 Street, across from Kanombe Military Hospital',
+                'phone' => '+250 787 070 694 (Pharmacy)',
+                'email' => 'kanombepharma@goodlife.rw',
+                'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.444399591217!2d30.166287374725897!3d-1.9765859980055331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19db59f28da2aafb%3A0xb50ef22fff7d2ce2!2sGoodlife%20Health%20%26%20Beauty%20-%20Kanombe%20branch!5e0!3m2!1sen!2srw!4v1718315722599!5m2!1sen!2srw',
+                'image' => 'SB.jpeg'
+            ]
+        ];
 
 $branchesMob = [
     [
@@ -392,8 +425,49 @@ $galleries= [
   
 ];
 
+$teams= [
+    [
+        'name' => 'Grant Beyers',
+        'position' => 'CEO and Co-Founder',
+        'image' => 'images/team/Grant.jpg',
+    ],
+    [
+        'name' => 'Hashiem Wagiet',
+        'position' => 'Head of Operations',
+        'image' => 'images/team/Hashiem.png',
+    ],
+    [
+        'name' => 'Ida-Alexandra de Cordier',
+        'position' => 'Chief Merchandise & Marketing Officer - Co-Founder',
+        'image' => 'images/team/ida.jpg',
+    ],
+    [
+        'name' => 'Atif Crawford',
+        'position' => 'Assistant Operations Manager',
+        'image' => 'images/team/Atif.png',
+    ],
+    [
+        'name' => 'Emmanuel Nduwayezu',
+        'position' => 'Finance Manager',
+        'image' => 'images/team/Emmanuel.jpg',
+    ],
+    [
+        'name' => 'Landrine Mugema',
+        'position' => 'Human Ressources Manager',
+        'image' => 'images/team/Landrine.png',
+    ],
+    [
+        'name' => 'Ignace Twaranamahoro',
+        'position' => 'Purchase Planner',
+        'image' => 'images/team/Ignace.jpg',
+    ],
+  
+
+    ];
+
+
     @endphp
-<section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_3.jpg);">
+<section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_31.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row d-flex align-items-center">
@@ -496,7 +570,7 @@ $galleries= [
     <div class="col-md-6 col-lg-3 ftco-animate">
         <div class="staff">
             <div class="img-wrap d-flex align-items-stretch">
-                <div class="img align-self-stretch" style="background-image: url(images/sonatube.jpg)"></div>
+                <div class="img align-self-stretch" style="background-image: url('{{ asset('images/stores/' . $branch['image']) }}')"></div>
             </div>
             <div class="text pt-3 text-center">
                 <h3 class="mb-2">{{ $branch['name'] }}</h3>
@@ -523,7 +597,7 @@ $galleries= [
 
 
 </div></div>
-<div class="mobile-post">
+<!-- <div class="mobile-post">
   <div class="d-flex flex-column align-items-center">
 
 <div class="row ">
@@ -549,12 +623,12 @@ $galleries= [
 
                 <div class="faded">
                     <p></p>
-                    <!-- <ul class="ftco-social text-center">
+                     <ul class="ftco-social text-center">
                         <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-                    </ul> -->
+                    </ul> 
                     <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a></p>
 
                 </div>
@@ -573,12 +647,12 @@ $galleries= [
  </div>
 
  
- </div>
+ </div> -->
 
 </div>
 </div>
 </section>
-<section class="ftco-section img" style="background-image: url(images/bg_3.jpg); background-repeat:no-repeat; backgound-size:100% 100%">
+<section class="ftco-section img" style="background-image: url(images/bg_31.jpg); background-repeat:no-repeat; backgound-size:100% 100%">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center pb-3">
@@ -587,58 +661,25 @@ $galleries= [
 </div>
 </div>
     <div class="row gy-4 gy-lg-0 gx-xxl-5 pb-5">
-      <div class="col-12 col-md-6 col-lg-3">
+    
+    @foreach($teams as $team)
+
+      <div class="col-12 col-md-6 col-lg-3 mt-4">
         <div class="card border-0 border-bottom border-[blue] shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="" loading="lazy" height="300" width="100%"  src="images/team-3.jpg" alt="Flora Nyra">
-              <figcaption class="m-0 p-4">
-                <h6 class="mb-1">Grant Beyers</h6>
-                <p class="text-secondary mb-0">CEO and co-founder</p>
+              <img class="" loading="lazy" height="300" width="100%"  src="{{asset(''.$team['image'])}}" alt="Flora Nyra">
+              <figcaption class="m-0 p-4 " style="height: 200px;">
+                <p class="mb-0">{{ $team['name'] }}</h6>
+                <p class="text-secondary " >{{ $team['position'] }}</p>
               </figcaption>
             </figure>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-          <div class="card-body p-0">
-            <figure class="m-0 p-0">
-              <img height="300" width="100%"  loading="lazy" src="images/team-4.jpg" alt="Evander Mac">
-              <figcaption class="m-0 p-4">
-                <h6 class="mb-1">Josh Ruxin</h6>
-                <p class="text-secondary mb-0"> Co-Founder</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-          <div class="card-body p-0">
-            <figure class="m-0 p-0">
-              <img height="300" width="100%"  loading="lazy" src="images/team-1.jpg" alt="Taytum Elia">
-              <figcaption class="m-0 p-4">
-                <h6 class="mb-0">Ida-Alexandra de Cordier</h6>
-                <p class="text-secondary mb-0">COO and  co-founder</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <div class="card border-0 border-bottom border-primary shadow-sm overflow-hidden">
-          <div class="card-body p-0">
-            <figure class="m-0 p-0">
-              <img height="300" width="100%"  loading="lazy" src="images/team-2.jpg" alt="Wylder Elio">
-              <figcaption class="m-0 p-4">
-                <h6 class="mb-1">Emmanuel Nduwayezu</h6>
-                <p class="text-secondary mb-0"> Finance Manager</p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
+
+        @endforeach
+
 
 
 </div>
