@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
  :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -91,6 +86,11 @@
   padding: 10px 20px; 
   height: 100px;
   display: block; 
+}
+.card-title{
+  font-size: 30px;
+  font-weight: bold;
+
 }
 
 @keyframes slide {

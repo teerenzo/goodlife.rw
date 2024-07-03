@@ -56,19 +56,33 @@ info@goodlife.rw</span></a></p>
 </div>
 <div class="row no-gutters block-9">
 <div class="col-md-6 order-md-last d-flex">
-<form action="#" class="bg-light p-5 contact-form">
+<form class="bg-light p-5 contact-form" action="{{ route('contact.send') }}" method="POST">
+@csrf
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Your Name">
+<input type="text" name="name" class="form-control" placeholder="Your Name">
 </div>
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Your Email">
+<input type="text" class="form-control" name="email" placeholder="Your Email">
 </div>
 <div class="form-group">
-<input type="text" class="form-control" placeholder="Subject">
+<input type="text" class="form-control" name="subject" placeholder="Subject">
 </div>
 <div class="form-group">
-<textarea name id cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+<textarea id cols="30" rows="7" name="message"  class="form-control" placeholder="Message"></textarea>
 </div>
+<div class="alert-msg" style="text-align: left;">
+            @if (session('success'))
+                        <div class="alert alert-success">
+                            {{ session('success') }}
+                        </div>
+                    @endif
+
+                    @if (session('error'))
+                        <div class="alert alert-danger">
+                            {{ session('error') }}
+                        </div>
+                    @endif
+            </div>
 <div class="form-group">
 <input type="submit" value="Send Message" class="btn btn-secondary py-3 px-5">
 </div>

@@ -3,7 +3,6 @@
 @section('title', 'Homepage')
 @section('content')
 
-<body data-spy="scroll" data-target=".site-navbar-target1" data-offset="300">
 
 @include('includes.header')
 
@@ -25,6 +24,11 @@
 
 <section class="slider-brands">
   <ul class="brand">
+    
+  <li>
+        <img src="images/brands/zuri.jpg">
+    </li> 
+    
     <li>
         <img src="images/brands/aveeno.png">
     </li> 
@@ -79,7 +83,7 @@
     <li>
         <img src="images/brands/Zwitsal.jpg">
     </li> 
-    
+
   </ul>
 </section>
 
@@ -204,15 +208,6 @@ disease medications.
 </div>
 </div>
 <div class="row">
-<div class="col-md-4 d-flex align-self-stretch">
-<div class="media block-6 services d-flex">
-<div class="media-body pl-md-4">
-<h3 class="heading mb-3">Pharmacy </h3>
-<p>Coordinated follow-up of patients with chronic 
-disease medications.</p>
-</div>
-</div>
-</div>
 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
 <!-- <div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-health"></span></div> -->
@@ -225,6 +220,16 @@ lotion, shampoo, conditioner</p>
 </div>
 </div>
 </div>
+<div class="col-md-4 d-flex align-self-stretch">
+<div class="media block-6 services d-flex">
+<div class="media-body pl-md-4">
+<h3 class="heading mb-3">Pharmacy </h3>
+<p>Coordinated follow-up of patients with chronic 
+disease medications.</p>
+</div>
+</div>
+</div>
+
 <div class="col-md-4 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services d-flex">
 <div class="media-body pl-md-4">
@@ -268,7 +273,7 @@ $branches = [
                 'phone' => '+250 798 666 605',
                 'email' => 'mundipharma@goodlife.rw',
                 'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.461878375412!2d30.085246274725975!3d-1.9692951980128774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca701a3b9b2df%3A0xb77eb3825a669ca9!2sGoodLife%20Health%20%26%20Beauty%20-%20Mundi%20Center%20Branch!5e0!3m2!1sen!2srw!4v1718315063066!5m2!1sen!2srw',
-                'image' => 'Mundi.jpeg'
+                'image' => 'Mundi.jpg'
             ],
             [
                 'name' => 'EZA Kisimenti',
@@ -276,7 +281,7 @@ $branches = [
                 'phone' => '+250 781 661 716',
                 'email' => 'ezapharma@goodlife.rw',
                 'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4831741912285!2d30.105513324725987!3d-1.9603755980218724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7e90a7ee7f3%3A0xc5de66f954a843ad!2sGoodlife%20Health%20%26%20Beauty%20-%20Kisimenti%20branch!5e0!3m2!1sen!2srw!4v1718315191616!5m2!1sen!2srw',
-                'image' => 'SB.jpeg'
+                'image' => 'kisimenti.jpg'
             ],
             [
                 'name' => 'Town M Peace',
@@ -343,7 +348,7 @@ $branches = [
                 'phone' => '+250 788 688 505 (Pharmacy)',
                 'email' => 'medplusnyamirambo@goodlife.rw',
                 'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31899.718935018274!2d30.058149338712937!3d-1.968045922902061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca5294db60a7b%3A0x65602a21a47f6d75!2sGoodLife%20Health%20%26%20Beauty%20-%20MedPlus%20Nyamirambo!5e0!3m2!1sen!2srw!4v1718315625963!5m2!1sen!2srw',
-                'image' => 'SB.jpeg'
+                'image' => 'nyamirambo.jpg'
             ],
             [
                 'name' => 'Gisozi',
@@ -351,7 +356,7 @@ $branches = [
                 'phone' => '+250 787 475 154 (Pharmacy)',
                 'email' => 'medplusgisozi@goodlife.rw',
                 'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31900.48980656872!2d30.018286774316397!3d-1.92733149999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca53e2011ddeb%3A0xdf431fc27fd1a966!2sGoodLife%20Health%20%26%20Beauty%20-%20MedPlus%20Gisozi!5e0!3m2!1sen!2srw!4v1718315680443!5m2!1sen!2srw',
-                'image' => 'SB.jpeg'
+                'image' => 'gisozi.jpg'
             ],
             [
                 'name' => 'Kanombe',
@@ -586,8 +591,8 @@ $teams= [
                         <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
                         <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
                     </ul> -->
-                    <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a>
-                    &nbsp; <a href="{{ route('branches.show', $branch['name']) }}" class="btn btn-secondary">Review</a></p>
+                    <!-- <p><a href="mailto:{{ $branch['email'] }}" class="btn btn-primary">contact</a> -->
+                    &nbsp; <a href="{{ route('branches.show', $branch['name']) }}" class="btn btn-secondary">View more</a></p>
 
                 </div>
             </div>
@@ -668,7 +673,7 @@ $teams= [
         <div class="card border-0 border-bottom border-[blue] shadow-sm overflow-hidden">
           <div class="card-body p-0">
             <figure class="m-0 p-0">
-              <img class="" loading="lazy" height="300" width="100%"  src="{{asset(''.$team['image'])}}" alt="Flora Nyra">
+              <img class="team-imge" loading="lazy" width="100%"  src="{{asset(''.$team['image'])}}" alt="{{$team['name']}}">
               <figcaption class="m-0 p-4 " style="height: 200px;">
                 <p class="mb-0">{{ $team['name'] }}</h6>
                 <p class="text-secondary " >{{ $team['position'] }}</p>

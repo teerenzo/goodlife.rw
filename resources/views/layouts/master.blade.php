@@ -4,8 +4,10 @@
 <head>
 <title>Goodlife</title>
 <meta charset="utf-8">
+<link rel="icon" href="{{asset('images/favo/favicon.ico')}}" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
 <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/teams/team-1/assets/css/team-1.css" />
 <link rel="stylesheet" type="text/css" href="lightbox2/dist/css/lightbox.min.css">
@@ -41,6 +43,20 @@
     <script src="{{ asset('js/main.js') }}"></script  >
 
 <style>
+.fa.fa-twitter{
+	font-family:sans-serif;
+}
+.fa.fa-twitter::before{
+	content:"𝕏";
+	font-size:1.2em;
+}
+
+.team-imge{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+  
   .to-hide{
     height: 200px;
     padding: 10px;
@@ -68,7 +84,31 @@
         height: 400px;
         width: 100%;
       }
+      .team-imge{
+  width: 100%;
+  height: auto;
+
+}
     }
+
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
 </style>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>

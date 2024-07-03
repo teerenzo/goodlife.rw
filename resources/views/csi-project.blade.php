@@ -61,7 +61,7 @@
 <div class="to-hide">
 <div class=" row d-flex align-items-center justify-content-end  flex-column  pb-3 to-hide" >
 <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-<h2 class="mb-4">CSI Project</h2>
+<h2 class="mb-4">CSI Project(Community and Social Involvement)</h2>
 </div>
 </div>
 @php
@@ -96,23 +96,44 @@ $galleries= [
 ];
 
     @endphp
+
+    @php
+$freescreeningImg= [
+    [
+        'image' => 'images/screening/screening2.jpg',
+    ],
+    [
+        'image' => 'images/screening/screening3.jpg',
+    ],
+    [
+        'image' => 'images/screening/screening1.jpg',
+    ]
+
+
+  
+];
+
+    @endphp
 </div>
 </section>
 <div class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
-        <img src="images/umuganda/8.jpg" class="d-block mx-lg-auto img-fluid" alt="Umuganda" loading="lazy" style="width: 500px">
+      <div class="col-sm-8 col-lg-6">
+        <img src="images/umuganda/2.jpg" class="d-block mx-lg-auto img-fluid" alt="Umuganda" loading="lazy" style="width: 500px">
       </div>
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Umuganda</h1>
-        <p class="lead">Umuganda also translated as ‘coming together in common purpose to achieve an outcome’ was started  the period immediately after independence in 1962, organized under special circumstances and was considered as an individual contribution to nation building.
+        <p class="">Umuganda also translated as ‘coming together in common purpose to achieve an outcome’ was started  the period immediately after independence in 1962, organized under special circumstances and was considered as an individual contribution to nation building.
             During umuganda, <strong style="color: #692c91">Goodlife</strong> offers Community Based Health Insurance (Mutuelle de santé) to the citizens from poor families.
         </p>
-        
+        <ul>
+          <li>Mutual de sante: 1,200 + sponsorships in the communities</li>
+        </ul>
       </div>
+ 
     </div>
   </div>
-  <div class="b-example-divider"></div>
+  <!-- <div class="b-example-divider"></div> -->
   
   <div class="row px-4">
 
@@ -128,6 +149,36 @@ $galleries= [
      
                       @endforeach
   </div>
+
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-sm-8 col-lg-6">
+        <img src="images/screening/screening1.jpg" class="d-block mx-lg-auto img-fluid" alt="Umuganda" loading="lazy" style="width: 500px">
+      </div>
+      <div class="col-lg-6">
+        <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Free Health Screening</h3>
+        <ul>
+          <li>we offer free health screening in the communities around us</li>
+        </ul>
+      </div>
+ 
+    </div>
+  </div>
+
+  <div class="row px-4">
+
+
+@foreach($freescreeningImg as $index => $data)
+<a class="col-md-6 col-lg-4 ftco-animate "  data-lightbox="mygallery" href="{{ asset($data['image']) }}" data-setbg="{{  asset($data['image']) }}">
+      <div class="staff">
+          <div class="img-wrap d-flex align-items-stretch">
+              <div class="img align-self-stretch" style="background-image: url('{{  asset($data['image']) }}')"></div>
+          </div>
+      </div>
+      </a>
+ 
+                  @endforeach
+</div>
 @include('includes.footer')
 
 </body>

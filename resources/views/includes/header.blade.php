@@ -13,8 +13,8 @@
 
 </div>
 <div class="icon mr-2 d-flex justify-content-center align-items-center ">
-<span class="text mr-2 "><a href=""> +  250 791 232 266</a></span>
-<span class="text mr-2"><a href="mail:to=info@goodlife.rw">
+<span class="text mr-2 ">Call us on Tel:<a href=""> +  250 791 232 266</a></span>
+<span class="text mr-2">Email:<a href="mail:to=info@goodlife.rw">
     info@goodlife.rw
 </a></span>
 </div>

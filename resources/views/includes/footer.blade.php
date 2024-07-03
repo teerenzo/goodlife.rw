@@ -1,3 +1,6 @@
+<a href="https://api.whatsapp.com/send?phone=+250791232150&text=Hello%20Goodlife" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
 <footer class="ftco-footer ftco-section img" style="">
 <div class="overlay"></div>
 <div class="container-fluid px-md-5">
@@ -11,10 +14,9 @@
 <p>Rwanda’s largest pharmacy chain, we operate 12 locations and are the 
 first multi-city pharmacy chain in Rwanda</p>
 <ul class="ftco-footer-social list-unstyled mt-5">
-<li class="ftco-animate"><a href="https://x.com/goodliferwanda" target="_blank"><span class="icon-twitter"></span></a></li>
+<li class="ftco-animate"><a href="https://x.com/goodliferwanda" target="_blank"><span class="fa fa-twitter"></span></a></li>
 <li class="ftco-animate"><a href="https://www.facebook.com/p/Goodlife-Rwanda-100086144434241/" target="_blank"><span class="icon-facebook"></span></a></li>
 <li class="ftco-animate"><a href="https://www.instagram.com/goodliferwanda/" target="_blank"><span class="icon-instagram"></span></a></li>
-<li class="ftco-animate"><a href="#" target="_blank"><span class="icon-Whatsapp"></span></a></li>
 </ul>
 </div>
 </div>

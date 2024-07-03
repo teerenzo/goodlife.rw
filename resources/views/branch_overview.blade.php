@@ -65,7 +65,8 @@
     <div class="py-5 text-center">
       <br><br> <br><br>
       <div class="img-wrap">
-      <img class="d-block mx-auto mb-4 img-fluid" src="{{asset('images/stores/'.$branch['image'])}}" alt="logo">
+      <img style="  height: 400px; width:100%;
+  object-fit: cover;" class="d-block mx-auto mb-4 img-fluid" src="{{asset('images/stores/'.$branch['image'])}}" alt="logo">
 
       </div>
       <h2>  {{ $branch['name'] }} Overview</h2>
@@ -94,6 +95,35 @@
             <div>
               <h6 class="my-0">
               <span class="text-muted"><a href="tel:">  {{ $branch['phone'] }}</a></span>
+              </h6>
+       
+            </div>
+          
+          </li>
+        @endif
+      
+         
+        </ul>
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Emails(s)</span> 
+        </h4>
+        <ul class="list-group mb-3">
+        @if(is_array($branch['email']))
+            @foreach($branch['email'] as $key => $email)
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">{{ $key }}</h6>
+              <!-- <small class="text-muted">(Receptionist)</small> -->
+            </div>
+            <span class="text-muted"><a href="tel:">{{ $email }}</a></span>
+          </li>
+            @endforeach
+        @else
+          
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">
+              <span class="text-muted"><a href="tel:">  {{ $branch['email'] }}</a></span>
               </h6>
        
             </div>
