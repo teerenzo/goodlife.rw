@@ -114,7 +114,7 @@ delightful shopping experience.</p>
 </div>
 </div>
 </section>
-<section class="ftco-intro img" style="background-image: url('images/bg_31.jpg');">
+<section class="ftco-intro img" style="background-image: url('images/IMG_3982.jpg');">
 <div class="overlay"></div>
 <div class="container">
 <div class="row justify-content-center">
@@ -188,7 +188,8 @@ disease medications.
 </div>
 <h3><a href="#">Optimize public health with all points-of call
 </a></h3>
-<p>Far far away, behind the word mountains</p>
+<p>
+Optimize public health by leveraging every interaction point to deliver comprehensive and accessible health interventions.</p>
 </div>
 </div>
 </div>
@@ -472,7 +473,7 @@ $teams= [
 
 
     @endphp
-<section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_31.jpg);">
+<section class="ftco-facts img ftco-counter" style="background-image: url(images/IMG_3981.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row d-flex align-items-center">
