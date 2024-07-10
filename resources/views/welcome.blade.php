@@ -6,7 +6,7 @@
 
 @include('includes.header')
 
-<section class="hero-wrap js-fullheight" style="background-image: url('images/bg_31.jpg'); background-repeat: no-repeat" data-section="home" data-stellar-background-ratio="0.5">
+<section class="hero-wrap js-fullheight" style="background-image: url('images/topBg.jpg'); background-repeat: no-repeat" data-section="home" data-stellar-background-ratio="0.5">
 <div class="overlay"></div>
 <div class="container">
 <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
@@ -473,7 +473,7 @@ $teams= [
 
 
     @endphp
-<section class="ftco-facts img ftco-counter" style="background-image: url(images/IMG_3981.jpg);">
+<section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_31.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row d-flex align-items-center">
