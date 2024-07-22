@@ -265,7 +265,7 @@ $branches = [
                 ],
                 'email' => 'goodlifepharma@goodlife.rw',
                 'map' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.465507318202!2d30.099947074967098!3d-1.9677780980144137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7ce138a4475%3A0x6646c2a34133be11!2sGoodlife%20Health%20and%20Beauty%20Ltd!5e0!3m2!1sen!2srw!4v1718314715108!5m2!1sen!2srw',
-                'image' => 'SB.jpg'
+                'image' => 'silver.jpg'
 
             ],
             [
@@ -282,7 +282,7 @@ $branches = [
                 'phone' => '+250 781 661 716',
                 'email' => 'ezapharma@goodlife.rw',
                 'map'=> 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.4831741912285!2d30.105513324725987!3d-1.9603755980218724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca7e90a7ee7f3%3A0xc5de66f954a843ad!2sGoodlife%20Health%20%26%20Beauty%20-%20Kisimenti%20branch!5e0!3m2!1sen!2srw!4v1718315191616!5m2!1sen!2srw',
-                'image' => 'kisimenti.jpg'
+                'image' => 'eza.jpg'
             ],
             [
                 'name' => 'Town M Peace',
@@ -365,7 +365,7 @@ $branches = [
                 'phone' => '+250 787 070 694 (Pharmacy)',
                 'email' => 'kanombepharma@goodlife.rw',
                 'map'=>'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.444399591217!2d30.166287374725897!3d-1.9765859980055331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19db59f28da2aafb%3A0xb50ef22fff7d2ce2!2sGoodlife%20Health%20%26%20Beauty%20-%20Kanombe%20branch!5e0!3m2!1sen!2srw!4v1718315722599!5m2!1sen!2srw',
-                'image' => 'SB.jpeg'
+                'image' => 'Kanombe.jpg'
             ]
         ];
 
@@ -437,11 +437,7 @@ $teams= [
         'position' => 'CEO and Co-Founder',
         'image' => 'images/team/Grant.jpg',
     ],
-    [
-        'name' => 'Hashiem Wagiet',
-        'position' => 'Head of Operations',
-        'image' => 'images/team/Hashiem.png',
-    ],
+
     [
         'name' => 'Ida-Alexandra de Cordier',
         'position' => 'Chief Merchandise & Marketing Officer - Co-Founder',
@@ -451,6 +447,11 @@ $teams= [
         'name' => 'Atif Crawford',
         'position' => 'Assistant Operations Manager',
         'image' => 'images/team/Atif.png',
+    ],
+    [
+        'name' => 'Hashiem Wagiet',
+        'position' => 'Head of Operations',
+        'image' => 'images/team/Hashiem.png',
     ],
     [
         'name' => 'Emmanuel Nduwayezu',
