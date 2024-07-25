@@ -474,7 +474,7 @@ $teams= [
 
 
     @endphp
-<section class="ftco-facts img ftco-counter" style="background-image: url(images/bg_31.jpg);">
+<section class="ftco-facts img ftco-counter" style="background-image: url(images/back.jpg);">
 <div class="overlay"></div>
 <div class="container">
 <div class="row d-flex align-items-center">
